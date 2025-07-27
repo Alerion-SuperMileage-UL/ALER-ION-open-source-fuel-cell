@@ -3,7 +3,12 @@ Alérion Supermilage is a student group at Université Laval who focusses on the
 
 In 2025, the project of a self-made hydrogen PEM fuel cell was born. With the spirit of sharing knowledge and helping others develop this technology, all the relevant design files are release as an open-source project.
 
+This is a PEM open cathode fuel cell.
+
 DISCLAIMER: (...)
+
+# Stack general design
+...
 
 # CAD files
 (...)
@@ -44,6 +49,8 @@ DISCLAIMER: (...)
 ## Compression
 (...)
 
+# Air blower
+(...)
 # Performances
 (...)
 
