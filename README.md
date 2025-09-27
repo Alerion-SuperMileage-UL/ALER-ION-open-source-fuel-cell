@@ -13,7 +13,7 @@ DISCLAIMER: At the moment of writing this, the prototype still has reliability i
 # CAD files
 (...)
 
-# MEA
+# Membrane Electrode Assembly (MEA)
 ## Proton exchange membrane
 The proton exchange membrane used was a [HP9-Pt ePTFE Reinforced, Pt Impregnated PFSA Membrane](https://www.fuelcellstore.com/eptfe-reinforced-pfsa-membrane-9-microns-pt-impregnated?search=78010010) from the [Fuel Cell store](www.fuelcellstore.com).
 
@@ -22,7 +22,14 @@ Note: Being only 9um thick, this membrane was selected aiming for high performan
 Recommandation: For future developpement, it might be wiser to start using a thickness closer to the industry standard of 50 um to obtain a reliable stack, and then go down in thickness to optimise the performances.
 
 ### Automated cutting
-(...)
+In order to cut each membrane precisely and reliably, an Ender 3 3D printer was converted to a CNC drag knife using a "plotter blade".
+
+**Close up picture of the cutting process:**
+
+<img width="156" alt="image" src="https://github.com/user-attachments/assets/7160e051-dac2-477e-b382-158644859551" />
+
+
+
 ## Electrode
 (...)
 ## Hot pressing
