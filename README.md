@@ -8,7 +8,8 @@ This is a PEM open cathode fuel cell.
 DISCLAIMER: At the moment of writing this, the prototype still has reliability issues. This stack is prone to leaking. Alérion Supermileage waives any responsability related to the usage of this fuel cell design. Note that hydrogen is a flammable gas. Use these files at your own risks.
 
 # Stack general design
-...
+This project was realized as a "Projet de fin d'étude" and the final design report is available (in french) in `Additional documentation/Rapport_final_PFE.pdf`. 
+(...)
 
 # CAD files
 (...)
