@@ -71,6 +71,11 @@ The electrode selected for this project were the [2 mg/cm² Platinum Black - Car
 ## Compression
 (...)
 
+# Stack assembly procedure
+(...)
+## Positioning rods
+(...)
+
 # Air blower
 (...)
 # Performances
