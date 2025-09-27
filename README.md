@@ -14,7 +14,10 @@ This project was realized as a "Projet de fin d'étude" and the final design rep
 (...)
 
 # CAD files
-(...)
+(TO DO)
+
+# Bill of material
+(TO DO)
 
 # Membrane Electrode Assembly (MEA)
 ## Proton exchange membrane
