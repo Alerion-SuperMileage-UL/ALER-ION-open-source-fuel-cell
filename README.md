@@ -1,4 +1,4 @@
-# Alér-ION open source hydrogen fuel cell
+# ALÉR-ION open source hydrogen fuel cell
 *Note: The full documentation for this project is in progress. Sections marked with "(...)" will be updated in a near future.*
 
 Alérion Supermilage is a student group at Université Laval who focusses on the developpement of high efficiency vehicles for various competitions. Up until 2024, the team always relied on an internal combustion engines. In 2024, they transition toward an electric-driven system with a battery.
@@ -65,24 +65,34 @@ Each MEA was hot pressed at 66 kg/cm², 97°C for 3.56 minutes to optimize the s
 
 # Graphite flow plates
 The flow plates (bipolar plates), were made of 0.125" thick [Fully Resin Impregnated Graphite Plates](https://www.fuelcellstore.com/impervious-bipolar-graphite-plates). 
-
   ## Machining
-Each Plate were manufacture using a small benchtop CNC router (_Genmitsu CNC 3018-PRO_) with a 1/32" endmill.
+  Each Plate were manufacture using a small benchtop CNC router (_Genmitsu CNC 3018-PRO_) with a 1/32" endmill.
 
 **Note:** 
 * Machining graphite produces a very fine dust. This should be done in a well ventilated area with appropriate respirators. A shop-vac was used to further control the produced dust.
 * Machining parameter: (TO DO)
-
-
-  ## Flow field designs and geometry
-  (...)
+  ## Flow field design and geometry
+    Multiple flow fields geometry were tried and the ones producing the most power were selected. However, it should be noted that their was a high degree of uncertainty on the results so this process should be done again in the future.
     ### Hydrogen side (anode)
-    (...)
+  Among others, the following flow fields were tried on the anode side:
+
+  (Image)
+
+  The simple serpentine flow field was selected.
+
+  (Image)
     ### Air side (cathode)
+  All cathode flow fields that were tried followed the same idea of straight channels. The selection process was done before the optimisation of the gasket system. Indeed, nickel strips were added as back support for the gasket. The initial design was thus on that allowed the first PTFE gasket to self support and wasn't necessarely the most efficient one.
+
+    **Note:** 
+     * The cathode design should be a balance between the conductivity (more graphite in contact with the electrode) and air availability (less graphite in contact with the electrode)
+     * The depth of the channels also affects the strength of the plates. This should also be considered as cracked plated cause leakage.
+  ### Other features
+    #### O-ring slots
     (...)
-    ### Other features
+    #### Holes
     (...)
-    ### End flow plates
+  ### End flow plates
     (...)
   ## CAD files
   (...)
