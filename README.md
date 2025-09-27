@@ -5,7 +5,7 @@ In 2025, the project of a self-made hydrogen PEM fuel cell was born. With the sp
 
 This is a PEM open cathode fuel cell.
 
-DISCLAIMER: (...)
+DISCLAIMER: At the moment of writing this, the prototype still has reliability issues. This stack is prone to leaking. Alérion Supermileage waives any responsability related to the usage of this fuel cell design. Note that hydrogen is a flammable gas. Use these files at your own risks.
 
 # Stack general design
 ...
