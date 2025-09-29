@@ -7,7 +7,7 @@ In 2025, the project of a self-made hydrogen PEM fuel cell was born. With the sp
 
 This is a PEM open cathode fuel cell which turns pure (or prehumidified) hydrogen gas into electrical power.
 
-DISCLAIMER: At the moment of writing this, the prototype still has reliability issues. This stack is prone to leaking. Alérion Supermileage waives any responsability related to the usage of this fuel cell design. Note that hydrogen is a flammable gas. Use these files at your own risks.
+**DISCLAIMER: At the moment of writing this, the prototype still has reliability issues. This stack is prone to leaking. Alérion Supermileage waives any responsability related to the usage of this fuel cell design. Note that hydrogen is a flammable gas. Use these files at your own risks.**
 
 <img width="200" alt="image" src="https://github.com/user-attachments/assets/e399f368-4ab9-4bef-b5a3-1159c8faaea8" />
 
