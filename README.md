@@ -117,6 +117,9 @@ The flow plates (bipolar plates), were made of 0.125" thick [Fully Resin Impregn
 (...)
 ### Leak test
 (...)
+### Membrane integrity
+(...)
+
 ## Issues and recomandations
 (...)
 
