@@ -1,5 +1,5 @@
 # ALÉR-ION open source hydrogen fuel cell
-*Note: The full documentation for this project is in progress. Sections marked with "(...)" will be updated in a near future. Feel free to contact me at mederic.chalifour.1@ulaval.ca for any question regarding this project.*
+*Note: The full documentation for this project is in progress. Sections marked with "(...)" will be updated in a near future. Feel free to contact me at mederic.chalifour.1@ulaval.ca for any question.*
 
 Alérion Supermilage is a student group at Université Laval who focusses on the developpement of high efficiency vehicles for various competitions. Up until 2024, the team always relied on an internal combustion engines. In 2024, they transition toward an electric-driven system with a battery.
 
