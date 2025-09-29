@@ -100,11 +100,21 @@ The flow plates (bipolar plates), were made of 0.125" thick [Fully Resin Impregn
   (...)
 
 # Sealing and gaskets 
-## Materials
 (...)
-## Manufacturing process
+## Main gasket
+### Manufacturing process
+(...)
+## Subgasket
+### Manufacturing process
+(...)
+## Sealing interface with negative current collector
+### Manufacturing process
 (...)
 ## Testing procedure
+(...)
+### Electrical contact
+(...)
+### Leak test
 (...)
 ## Issues and recomandations
 (...)
@@ -113,7 +123,9 @@ The flow plates (bipolar plates), were made of 0.125" thick [Fully Resin Impregn
 (...)
 # End Plates
 ## Material
+(...)
 ## Ports
+(...)
 ## Compression
 (...)
 
