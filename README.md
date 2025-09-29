@@ -89,7 +89,7 @@ The flow plates (bipolar plates), were made of 0.125" thick [Fully Resin Impregn
      * The depth of the channels also affects the strength of the plates. This should also be considered as cracked plated cause leakage.
   ### Other features
     #### O-ring slots
-    (...)
+    The first design of the sealing system included o-rings on both sides of the bipolar plates. These are no longer in the design as its sealing ability was highly sensitive to the o-ring grooves depth, causing reliability issue. The same plates were later retrofitted to work with flat gaskets. The cathode side o-ring grooves were filled using silicone and some custom 3D printed spacers. The cathod side o-ring grooves can thus be remove from later version without any trouble (probably...). The anode side groove is also not used anymore, further tests should be conductd before removing it from the design as the gasket system was designed to fit on plate with this feature. If removed, one possible risk chould be that the current EPDM gasket which had this space to be squished-in before (thus not geting out of the PTFE subgasket), could reach the membrane and damage it. New design still shoudn't include this feature, but carefull consideration must be taken if the gasket system remains unchanged.
     #### Holes
     (...)
   ### End flow plates
