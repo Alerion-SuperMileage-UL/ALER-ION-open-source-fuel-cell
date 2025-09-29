@@ -146,4 +146,9 @@ The flow plates (bipolar plates), were made of 0.125" thick [Fully Resin Impregn
 # Recommandations
 (...)
 # Acknowledgement
-Huge thanks to all sponsors and to all the expert help without whom this project wouldn't have been possible.
+Huge thanks to all our sponsors and to all the experts who helped us along the way!
+
+<img width="600" alt="github-1" src="https://github.com/user-attachments/assets/7965bfa0-8bd2-4d49-bacf-e9380af09838" />
+
+
+
