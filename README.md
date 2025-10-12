@@ -101,7 +101,16 @@ The flow plates (bipolar plates), were made of 0.125" thick [Fully Resin Impregn
   (...)
 
 # Sealing and gaskets 
+Sealing the fuel cell turned out to be an unforseen major challenge of this project. During this process, multiple iterations of the gasketing system were tried and a procedure to test out the performance was developed. This section presents this procedure, along with the final design of this system.
+## Testing procedure
+Each new gasket system needed to pass 3 distinct test.
+### Electrical contact
+First the gasket shouldn't affect the electrical performance of the fuel cell. In other words, we had to ensure that the electrical resistance between the carbon clothe electrodes and the graphite bipolar plates didn't increase when the gasket was added. This meant that the gaskets, once compressed, shouldn't be thicker than the electrodes. To test this, we used a stack of two bipolar plate with the current collectors and sandwiched only one electrode, without the membrane and the gasket to measure the resistance. The voltage drop was measured with constant current power supply of 5A applied on the current collectors. This baseline resistance was on the order of 9mOhm. Then the same experiment was repeated with the gasket system (half of it if it was symetrical, else two stacked electrode are required). The resulting resistance had to be in the same range. This test was also used to determined the effect of different torque on the compression screws on the cell resistance.
+### Leak test
 (...)
+### Membrane integrity
+(...)
+
 ## Main gasket
 ### Manufacturing process
 (...)
@@ -111,14 +120,7 @@ The flow plates (bipolar plates), were made of 0.125" thick [Fully Resin Impregn
 ## Sealing interface with negative current collector
 ### Manufacturing process
 (...)
-## Testing procedure
-(...)
-### Electrical contact
-(...)
-### Leak test
-(...)
-### Membrane integrity
-(...)
+
 
 ## Issues and recomandations
 (...)
