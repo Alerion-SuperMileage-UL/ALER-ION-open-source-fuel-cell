@@ -100,25 +100,40 @@ The flow plates (bipolar plates), were made of 0.125" thick [Fully Resin Impregn
   ## CAD file
   (...)
 
+
+
+
 # Sealing and gaskets 
 Sealing the fuel cell turned out to be an unforseen major challenge of this project. During this process, multiple iterations of the gasketing system were tried and a procedure to test out the performance was developed. This section presents this procedure, along with the final design of this system.
+
+(TO DO: sealing diagram)
+
 ## Testing procedure
 Each new gasket system needed to pass 3 distinct test.
 ### Electrical contact
 First the gasket shouldn't affect the electrical performance of the fuel cell. In other words, we had to ensure that the electrical resistance between the carbon clothe electrodes and the graphite bipolar plates didn't increase when the gasket was added. This meant that the gaskets, once compressed, shouldn't be thicker than the electrodes. To test this, we used a stack of two bipolar plate with the current collectors and sandwiched only one electrode, without the membrane and the gasket to measure the resistance. The voltage drop was measured with constant current power supply of 5A applied on the current collectors. This baseline resistance was on the order of 9mOhm. Then the same experiment was repeated with the gasket system (half of it if it was symetrical, else two stacked electrode are required). The resulting resistance had to be in the same range. This test was also used to determined the effect of different torque on the compression screws on the cell resistance.
 ### Membrane integrity
-During the testing phase, we observed that some gasket systems would damage the proton exchange membrane. In other words, squishy materials, like PDM rubber, would grip on the membrane and stretch it out, causing small tears which majorly compromised the sealing structure. This observation led to the introduction of a thin PTFE sub-gasket in the design. When we tested different system, instem of testing with a new MEA each time, we would try with a simple humidified membrane and then observe it directly (the membrane shouldn't be deformed or damage by compressing it in the fuel cell).
+During the testing phase, we observed that some gasket systems would damage the proton exchange membrane. In other words, squishy materials, like EPDM rubber, would grip on the membrane and stretch it out, causing small tears which majorly compromised the sealing structure. This observation led to the introduction of a thin PTFE sub-gasket in the design. When we tested different system, instem of testing with a new MEA each time, we would try with a simple humidified membrane and then observe it directly (the membrane shouldn't be deformed or damage by compressing it in the fuel cell).
 ### Leak test
 The final test for the fuel cell was a submerged leak test. For this test, some compressed air was used to see if the fuel cell would hold the design pressure (6-10 psi). Note that it was simpler and safer to use air from the workshop than to go in the lab to try this with hydrogen. Then, the fuel cell was submerged in distilled water in a transparent pot to identify the origin of the leaks (or to find smaller ons). Each new design was first tested with only one or two cells, and later retested with more and more cells to validate the sealing system.
 
 
 ## Main gasket
-### Manufacturing process
-(...)
+The last iteration of the main gasket was cut out of a 15 mil EPDM 50A rubber sheet. It was cut using the same procedure as the proton-exchange membrane, with double sided tape (from Dollarama) to hold it to the 3D printer bed. This procedure was far from perfect as the rubber tends to be dragged up by the cutting blade. Multiple slow passes were made to alleviate this issue, but the fail rate was still high. A real CNC drag knife with a longer cutting blade, or laser cutting might help.
+
+For further iteration, harder rubber (EPDM 70A) should be tried as it would probably be easier to cut, and it might hold pressure better. 
+
+The benefit of this material, over teflon, which is way easier to cut-out, is that it compresses well, allowing a good electrical contact and a good seal at a resonable compression (too much compression breaks the graphite). However, it also caused several issues. 
+
 ## Subgasket
-### Manufacturing process
-(...)
-## Back support
+First, because of its "squishyness" and good gripping properties, when compressed, the EPDM gasket  would grip on the proton exchange membrane (PEM) and tear it has the contact surface would expand under compression. To solve this, a 1 mil PTFE sub-gasket was added (this feature is known as edge protection [(Min Wang et al 2019)](https://iopscience.iop.org/article/10.1149/09208.0351ecst)). This created a sliperry protective layer between the PEM and the EPDM gasket, without compromising the seal. It was cut out using the same proceduree as the PEM and the EPDM gasket. For further improvements, 2 mil PTFE subgasket could be tried to improve the durability of this piece, as it tends to wear out after being compressed.
+
+## Back support and margins
+Next, because of its high compressibility, the EPDM gasket tended to squish in the hydrogen channels, cutting out the hydrogen flow entirely. Nickel back support were thus added where the gasket had to go over the flow channels. Also, appropriate margin between the gasket holes and any flow field feature (flow channels, port holes, etc.) were needed has the gasket expands under compression. To spot where to add more margin, we looked at the marks left of the rubber after the compression.
+
+The nickel back support were made with 0.1mm x 4mm 99.6% pure nickel strip, which was cut to the desired length. Be sure to use pure nickel as nickel plated steel will rust.
+
+
 ## Sealing interface with negative current collector
 ### Manufacturing process
 (...)
