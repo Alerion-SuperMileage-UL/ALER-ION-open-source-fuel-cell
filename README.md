@@ -108,6 +108,9 @@ Sealing the fuel cell turned out to be an unforseen major challenge of this proj
 
 (TO DO: sealing diagram)
 
+## CAD file
+(...)
+
 ## Testing procedure
 Each new gasket system needed to pass 3 distinct test.
 ### Electrical contact
