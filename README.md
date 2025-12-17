@@ -50,7 +50,7 @@ The MEA is composed by two carbon clothes electrodes sandwiched around a proton-
 <img width="156" alt="image" src="https://github.com/user-attachments/assets/7160e051-dac2-477e-b382-158644859551" />
 
 ### Membrane CAD file
-The CAD file for the membrane can be found at [CAD files/Membrane](https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/tree/main/CAD%20files/Membrane).
+The CAD file for the membrane can be found in [CAD files/Membrane](https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/tree/main/CAD%20files/Membrane).
 
 
 
@@ -111,7 +111,7 @@ The flow plates (bipolar plates), were made of 0.125" thick [Fully Resin Impregn
 
   For the anode side of the stack, where the inlet and outlet are, the o-ring grooves of the cathode side of the plate were not filled like the other plates. At least for this last plate, the o-ring grooves needs to stay in the design. Moreover, although it's not necessary, the cathode side flow fields can be removed to allow maximum contact with the current collector.
   ## CAD file
-The cad files of the flow plates can be found at [CAD files/Flow plate](https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/tree/main/CAD%20files/Flow%20plate).
+The cad files of the flow plates can be found in [CAD files/Flow plate](https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/tree/main/CAD%20files/Flow%20plate).
 
 
 
@@ -170,7 +170,7 @@ Originally, a 0.1mm thick pure copper sheet was used, but it was replaced by dou
 The electrical circuit was connected to the collectors using simple fork terminals bolted on the tabs.
 
 ## CAD files
-The CAD files for the current collectors can be found at [CAD files/Current collectors](https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/tree/main/CAD%20files/Current%20collectors).
+The CAD files for the current collectors can be found in [CAD files/Current collectors](https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/tree/main/CAD%20files/Current%20collectors).
 
 
 # End Plates
@@ -187,8 +187,7 @@ To keep the fitting tight over time, threadlockr was added and along with a 3D p
 To compress the stack, eight M4 threaded rods were used to compress the two end plates together. A nut was also welded on one end of each rod to turn it into a long hex head bolt. [High profile nuts](https://www.mcmaster.com/90725A025/) were used to avoid stripping. Also note that [washers](https://www.mcmaster.com/93475A230/) are needed to avoid damage on the end plates during compression. 
 
 ## CAD files
-(TO DO)
-
+The CAD files for the endplates can be found in [CAD files/Endplate](https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/tree/main/CAD%20files/Endplate).
 
 # Stack assembly procedure
 (...)
