@@ -83,6 +83,7 @@ The flow plates (bipolar plates), were made of 0.125" thick [Fully Resin Impregn
 
 
   The simple serpentine flow field was selected.
+  
 <img width="300" alt="{30DB0875-6CFB-4B4F-8EC1-B9351816C968}" src="https://github.com/user-attachments/assets/16e817ca-90a8-40be-8056-ff77a9f65600" />
 
 ### Air side (cathode)
@@ -145,7 +146,7 @@ The nickel back support were made with 0.1mm x 4mm 99.6% pure nickel strip, whic
 These nickel strips were held in place using a small amount of silicone. For further improvements, some feature in the graphit flow plates should be added to accurately position the back support strips.
 
 
-## Sealing interface with negative current collector
+## Sealing interface with negative current collector and end plate
 ### Manufacturing process
 (...)
 
@@ -154,7 +155,15 @@ These nickel strips were held in place using a small amount of silicone. For fur
 (...)
 
 # Current collectors
-(...)
+The current collectors act as the elctrical interface between the fuel cell stack and the electrical circuit. Copper was selected for its high electrical conductivity, but surface corrosion was a concern. To prevent it,the current collectors were silver coated using [Nushine Silver Plating Solution 3.4 Oz](https://a.co/d/675oinK).
+
+![IMG_5931 (1)](https://github.com/user-attachments/assets/cc1ce7fc-9315-4ad2-a330-4655c0fa161f)
+<img width="300" alt="{44C0C773-2CE3-48D9-A187-1A2DAB118852}" src="https://github.com/user-attachments/assets/35ae2c78-16de-47ca-8f76-04cd5478d33a" />
+
+Originally, a 0.1mm thick pure copper sheet was used, but it was replaced by double sided copper laminated FR4 (blank PCB material), after the first iteration got damage. In the end both solution weren't optimal and a thicker pure copper sheet may perform better.
+
+The electrical circuit was connected to the collectors using simple fork terminals bolted on the tabs.
+
 # End Plates
 <img width="300" alt="{9884F5E0-8846-489C-B124-512537534B9E}" src="https://github.com/user-attachments/assets/7ace09f3-c464-414d-b57c-0e6afd76973f" />
 
