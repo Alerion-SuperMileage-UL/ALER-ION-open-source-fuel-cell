@@ -185,7 +185,16 @@ In order to facilitate the allignement of everything during the assembly, two [4
 About mid way into the compression of the stack, when the risk of shifting of the components is reduced, the rods are removed to remove all friction that could result in uneven compression across all cells.
 
 # Air blower
-(...)
+The first tests of the fuel cell stack indicated that the current was limited by the low air flow in the flow field. This could be due to oxygen concentration or water removal.
+
+A **PVB120G12H-P01** air blower, scavenge from an old computer was installed along with a 3D printed duct to guide the air through. This blower can accomodate for about 20 cells. The exact geometry of the duct can also be modify to fit the length of the stack.
+
+A filter was also crafted with a 3D printed frame and a piece composite breater material to avoid any contaminent in the air supply of the fuel cell stack.
+
+<img width="400" alt="{8FADFDFD-DADD-46EE-878C-21586577273D}" src="https://github.com/user-attachments/assets/fbaa9539-664d-4dac-8916-22ce5eef8c87" />
+
+
+
 # Performances
 ## Testing
 (...)
