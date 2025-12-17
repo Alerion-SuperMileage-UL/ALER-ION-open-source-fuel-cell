@@ -158,7 +158,7 @@ These nickel strips were held in place using a small amount of silicone. For fur
 The current collectors act as the elctrical interface between the fuel cell stack and the electrical circuit. Copper was selected for its high electrical conductivity, but surface corrosion was a concern. To prevent it,the current collectors were silver coated using [Nushine Silver Plating Solution 3.4 Oz](https://a.co/d/675oinK).
 
 ![IMG_5931 (1)](https://github.com/user-attachments/assets/cc1ce7fc-9315-4ad2-a330-4655c0fa161f)
-<img width="300" alt="{44C0C773-2CE3-48D9-A187-1A2DAB118852}" src="https://github.com/user-attachments/assets/35ae2c78-16de-47ca-8f76-04cd5478d33a" />
+<img width="200" alt="{44C0C773-2CE3-48D9-A187-1A2DAB118852}" src="https://github.com/user-attachments/assets/35ae2c78-16de-47ca-8f76-04cd5478d33a" />
 
 Originally, a 0.1mm thick pure copper sheet was used, but it was replaced by double sided copper laminated FR4 (blank PCB material), after the first iteration got damage. In the end both solution weren't optimal and a thicker pure copper sheet may perform better.
 
