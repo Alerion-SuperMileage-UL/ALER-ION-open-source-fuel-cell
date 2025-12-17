@@ -170,7 +170,7 @@ Originally, a 0.1mm thick pure copper sheet was used, but it was replaced by dou
 The electrical circuit was connected to the collectors using simple fork terminals bolted on the tabs.
 
 ## CAD files
-(TO DO)
+The CAD files for the current collectors can be found at [CAD files/Current collectors](https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/tree/main/CAD%20files/Current%20collectors).
 
 
 # End Plates
