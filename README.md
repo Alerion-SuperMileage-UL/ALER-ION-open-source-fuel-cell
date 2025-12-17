@@ -50,7 +50,7 @@ The MEA is composed by two carbon clothes electrodes sandwiched around a proton-
 <img width="156" alt="image" src="https://github.com/user-attachments/assets/7160e051-dac2-477e-b382-158644859551" />
 
 ### Membrane CAD file
-The CAD file for the membrane can be found at [CAD files/Membrane]([https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/tree/main/CAD%20files](https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/tree/main/CAD%20files/Membrane)).
+The CAD file for the membrane can be found at [CAD files/Membrane](https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/tree/main/CAD%20files/Membrane).
 
 
 
