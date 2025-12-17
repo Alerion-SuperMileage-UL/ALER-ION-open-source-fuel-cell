@@ -16,7 +16,7 @@ This is a PEM open cathode fuel cell which turns pure (or prehumidified) hydroge
 
 
 # Stack general design
-This project was realized as a "Projet de fin d'étude" and the final design report is available (in french) in [`Additional documentation/Rapport_final_PFE.pdf`](https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/blob/f2cdef219edfe725619d7147de9b8b1a14c1f4f9/Additional%20documentation/Rapport_final_PFE.pdf). 
+This project was realized as a "Projet de fin d'étude" and the final design report is available (in french) in [Additional documentation/Rapport_final_PFE.pdf](https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/blob/f2cdef219edfe725619d7147de9b8b1a14c1f4f9/Additional%20documentation/Rapport_final_PFE.pdf). 
 (...)
 
 # CAD files
@@ -50,7 +50,7 @@ The MEA is composed by two carbon clothes electrodes sandwiched around a proton-
 <img width="156" alt="image" src="https://github.com/user-attachments/assets/7160e051-dac2-477e-b382-158644859551" />
 
 ### Membrane CAD file
-The CAD file for the membrane can be found at [`CAD files/Membrane`]([https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/tree/main/CAD%20files](https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/tree/main/CAD%20files/Membrane)).
+The CAD file for the membrane can be found at [CAD files/Membrane](https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/tree/main/CAD%20files/Membrane).
 
 
 
@@ -111,7 +111,7 @@ The flow plates (bipolar plates), were made of 0.125" thick [Fully Resin Impregn
 
   For the anode side of the stack, where the inlet and outlet are, the o-ring grooves of the cathode side of the plate were not filled like the other plates. At least for this last plate, the o-ring grooves needs to stay in the design. Moreover, although it's not necessary, the cathode side flow fields can be removed to allow maximum contact with the current collector.
   ## CAD file
-  (...)
+The cad files of the flow plates can be found at [CAD files/Flow plate](https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/tree/main/CAD%20files/Flow%20plate).
 
 
 
