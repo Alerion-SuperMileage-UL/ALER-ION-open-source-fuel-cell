@@ -180,7 +180,9 @@ To compress the stack, eight M4 threaded rods were used to compress the two end 
 # Stack assembly procedure
 (...)
 ## Positioning rods
-(...)
+In order to facilitate the allignement of everything during the assembly, two [4 mm OD fiber glass rods](https://a.co/d/973gxrt) were included in the design. Each part has two 4 mm hole (+ tolerance) to let the positioning rods go through. 
+
+About mid way into the compression of the stack, when the risk of shifting of the components is reduced, the rods are removed to remove all friction that could result in uneven compression across all cells.
 
 # Air blower
 (...)
