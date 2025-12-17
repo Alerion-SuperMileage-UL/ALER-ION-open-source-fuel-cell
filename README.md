@@ -206,8 +206,8 @@ A filter was also crafted with a 3D printed frame and a piece composite breater 
 <img width="400" alt="{8FADFDFD-DADD-46EE-878C-21586577273D}" src="https://github.com/user-attachments/assets/fbaa9539-664d-4dac-8916-22ce5eef8c87" />
 
 
-## CAD files for the duct
-(TO DO)
+## CAD files for the duct and filter
+The CAD files for the air blower system can be found in [CAD files/Air blower system](https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/tree/main/CAD%20files/Air%20blower%20system).
 
 
 # Performances
