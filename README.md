@@ -25,6 +25,7 @@ This project was realized as a "Projet de fin d'étude" and the final design rep
 (TO DO)
 
 # Membrane Electrode Assembly (MEA)
+(image)
   ## Proton exchange membrane
   The proton exchange membrane used was a [HP9-Pt ePTFE Reinforced, Pt Impregnated PFSA Membrane](https://www.fuelcellstore.com/eptfe-reinforced-pfsa-membrane-9-microns-pt-impregnated?search=78010010) from the [Fuel Cell store](www.fuelcellstore.com).
 
