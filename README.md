@@ -175,7 +175,7 @@ The selected connector were [Swagelok's #SS-400-1-0256](https://products.swagelo
 To keep the fitting tight over time, threadlockr was added and along with a 3D printed contraption that prevents the rotation of the two fittings, like a lock wire.
 
 ## Compression
-To compress the stack, eight M4 threaded rods were used to compress the two end plates together. A nut was also welded on one end of each rod to turn it into a long hex head bolt. Note that washers are needed to avoid damage on the end plates during compression.
+To compress the stack, eight M4 threaded rods were used to compress the two end plates together. A nut was also welded on one end of each rod to turn it into a long hex head bolt. [High profile nuts](https://www.mcmaster.com/90725A025/) were used to avoid stripping. Also note that [washers](https://www.mcmaster.com/93475A230/) are needed to avoid damage on the end plates during compression. 
 
 # Stack assembly procedure
 (...)
