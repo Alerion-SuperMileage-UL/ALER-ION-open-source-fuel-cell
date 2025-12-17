@@ -123,7 +123,7 @@ Sealing the fuel cell turned out to be an unforseen major challenge of this proj
 
 
 ## CAD file
-(TO DO...)
+The CAD for the sealing system can be found in [CAD files/Sealing system](https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/tree/main/CAD%20files/Sealing%20system).
 
 ## Testing procedure
 Each new gasket system needed to pass 3 distinct test.
