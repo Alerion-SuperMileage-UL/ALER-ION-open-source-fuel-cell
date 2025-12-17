@@ -80,21 +80,24 @@ The flow plates (bipolar plates), were made of 0.125" thick [Fully Resin Impregn
   (Image)
 
   The simple serpentine flow field was selected.
+<img width="788" height="594" alt="{30DB0875-6CFB-4B4F-8EC1-B9351816C968}" src="https://github.com/user-attachments/assets/16e817ca-90a8-40be-8056-ff77a9f65600" />
 
-  (Image)
-    ### Air side (cathode)
+### Air side (cathode)
+
   All cathode flow fields that were tried followed the same idea of straight channels. The selection process was done before the optimisation of the gasket system. Indeed, nickel strips were added as back support for the gasket. The initial design was thus on that allowed the first PTFE gasket to self support and wasn't necessarely the most efficient one.
 
-    **Note:** 
-     * The cathode design should be a balance between the conductivity (more graphite in contact with the electrode) and air availability (less graphite in contact with the electrode)
-     * The depth of the channels also affects the strength of the plates. This should also be considered as cracked plated cause leakage.
-  ### Other features
-    #### O-ring slots
-    The first design of the sealing system included o-rings on both sides of the bipolar plates. These are no longer in the design as its sealing ability was highly sensitive to the o-ring grooves depth, causing reliability issue. The same plates were later retrofitted to work with flat gaskets. The cathode side o-ring grooves were filled using silicone and some custom 3D printed spacers. The cathod side o-ring grooves can thus be remove from later version without any trouble (probably...). The anode side groove is also not used anymore, further tests should be conductd before removing it from the design as the gasket system was designed to fit on plate with this feature. If removed, one possible risk chould be that the current EPDM gasket which had this space to be squished-in before (thus not geting out of the PTFE subgasket), could reach the membrane and damage it. New design still shoudn't include this feature, but carefull consideration must be taken if the gasket system remains unchanged.
-    #### Holes
-    Each flow plates has four holes: two port (inlet and outlet) and two other for the positioning rods.
+  <img width="775" height="489" alt="{ACC28917-BCA8-4B8C-A650-7DEC884F8421}" src="https://github.com/user-attachments/assets/692d02ef-7ed7-42c2-9434-545a9bc5e5ca" />
+
+  **Note:** 
+  * The cathode design should be a balance between the conductivity (more graphite in contact with the electrode) and air availability (less graphite in contact with the electrode)
+  * The depth of the channels also affects the strength of the plates. This should also be considered as cracked plated cause leakage.
+### Other features
+  #### O-ring slots
+  The first design of the sealing system included o-rings on both sides of the bipolar plates. These are no longer in the design as its sealing ability was highly sensitive to the o-ring grooves depth, causing reliability issue. The same plates were later retrofitted to work with flat gaskets. The cathode side o-ring grooves were filled using silicone and some custom 3D printed spacers. The cathod side o-ring grooves can thus be remove from later version without any trouble (probably...). The anode side groove is also not used anymore, further tests should be conductd before removing it from the design as the gasket system was designed to fit on plate with this feature. If removed, one possible risk chould be that the current EPDM gasket which had this space to be squished-in before (thus not geting out of the PTFE subgasket), could reach the membrane and damage it. New design still shoudn't include this feature, but carefull consideration must be taken if the gasket system remains unchanged.
+  #### Holes
+  Each flow plates has four holes: two port (inlet and outlet) and two other for the positioning rods.
   ### End flow plates
-    The end flow plates must be different to allow contact with the current collectors without causing any leaks. For the cathode side of the stack, the last flow plate didn't have the inlet/outlet holes and the anode side of the plate was left uncarved. This allowed maximal contact with the current collector while elimating the need for a sealing system around the ports.
+  The end flow plates must be different to allow contact with the current collectors without causing any leaks. For the cathode side of the stack, the last flow plate didn't have the inlet/outlet holes and the anode side of the plate was left uncarved. This allowed maximal contact with the current collector while elimating the need for a sealing system around the ports.
 
   For the anode side of the stack, where the inlet and outlet are, the o-ring grooves of the cathode side of the plate were not filled like the other plates. At least for this last plate, the o-ring grooves needs to stay in the design. Moreover, although it's not necessary, the cathode side flow fields can be removed to allow maximum contact with the current collector.
   ## CAD file
@@ -150,11 +153,14 @@ These nickel strips were held in place using a small amount of silicone. For fur
 # Current collectors
 (...)
 # End Plates
-(Image of the plate TODO)
+<img width="1053" height="756" alt="{9884F5E0-8846-489C-B124-512537534B9E}" src="https://github.com/user-attachments/assets/7ace09f3-c464-414d-b57c-0e6afd76973f" />
+
 ## Material
 In order to have a reliable seal and a well distributed compression, the end plates needs to be very stiff. To achieve this while keeping a light weight, the selected material was a 3/8" thick [Flame-Retardant Garolite G-10/FR4 Sheet](https://www.mcmaster.com/85345K752/). Note that this material is very abrasive and might damage the tooling bits. 
 ## Ports
-The selected connector were [Swagelok's #SS-400-1-0256](https://products.swagelok.com/en/c/straights/p/SS-400-1-0256). A 10-32 thread was tapped directly in the garolite sheet.
+The selected connector were [Swagelok's #SS-400-1-0256](https://products.swagelok.com/en/c/straights/p/SS-400-1-0256). A 10-32 thread was tapped directly in the garolite sheets.
+
+To keep the fitting tight over time, threadlockr was added and along with a 3D printd contraption that prevent the rotation of the two fitting like a lock wire.
 
 ## Compression
 To compress the stack, eight M4 threaded rod were used to compress the two end plates together. A nut was also welded on one end of each rod to turn it into a long hex head bolt. Note that washers are needed to avoid damage on the end plates during compression.
