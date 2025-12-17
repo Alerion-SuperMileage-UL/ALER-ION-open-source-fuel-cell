@@ -119,7 +119,8 @@ The cad files of the flow plates can be found in [CAD files/Flow plate](https://
 # Sealing and gaskets 
 Sealing the fuel cell turned out to be an unforseen major challenge of this project. During this process, multiple iterations of the gasketing system were tried and a procedure to test out the performance was developed. This section presents this procedure, along with the final design of this system.
 
-(TO DO: sealing diagram)
+<img width="500" alt="sealing diagram" src="https://github.com/user-attachments/assets/61066296-8261-4e41-8e18-acb28e5176f7" />
+
 
 ## CAD file
 (TO DO...)
@@ -157,7 +158,7 @@ The first and last flow plates are special cases in regard to sealing. For the l
 
 For the first plate, a sealing solution that keeps an electrical contact between the collector and the first flow flow plate is required. A simple gasket wouldn't work here as it would cut the electrical contact (unless it's conductive). The seal was thus realized by o-rings (dash number 010, 1/16 fractional width). Ideally, there would have been one o-ring per port, and a groove on the flow plate on the side facing foward the current collector. However, from previous iteration of the sealing system, the other side of the flow plate already had an oring groove (filled with silicone and plastic for the rest of the stack). This situation had us bore the oring groove all the way accross the plate, and using two oring stacked toghter with a piece of PTFE btween them. That's far from optimal and should be changed in the next iteration.
 
-(Image of the solution)
+(Image of the solution TO DO)
 
 # Current collectors
 The current collectors act as the elctrical interface between the fuel cell stack and the electrical circuit. Copper was selected for its high electrical conductivity, but surface corrosion was a concern. To prevent it,the current collectors were silver coated using [Nushine Silver Plating Solution 3.4 Oz](https://a.co/d/675oinK).
