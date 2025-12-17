@@ -165,6 +165,10 @@ Originally, a 0.1mm thick pure copper sheet was used, but it was replaced by dou
 
 The electrical circuit was connected to the collectors using simple fork terminals bolted on the tabs.
 
+## CAD files
+(TO DO)
+
+
 # End Plates
 <img width="300" alt="{9884F5E0-8846-489C-B124-512537534B9E}" src="https://github.com/user-attachments/assets/7ace09f3-c464-414d-b57c-0e6afd76973f" />
 
@@ -177,6 +181,10 @@ To keep the fitting tight over time, threadlockr was added and along with a 3D p
 
 ## Compression
 To compress the stack, eight M4 threaded rods were used to compress the two end plates together. A nut was also welded on one end of each rod to turn it into a long hex head bolt. [High profile nuts](https://www.mcmaster.com/90725A025/) were used to avoid stripping. Also note that [washers](https://www.mcmaster.com/93475A230/) are needed to avoid damage on the end plates during compression. 
+
+## CAD files
+(TO DO)
+
 
 # Stack assembly procedure
 (...)
