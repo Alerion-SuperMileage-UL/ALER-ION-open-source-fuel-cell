@@ -20,10 +20,10 @@ This project was realized as a "Projet de fin d'étude" and the final design rep
 (...)
 
 # CAD files
-(TO DO)
+(TO DO...)
 
 # Bill of material
-(TO DO)
+(TO DO...)
 
 # Membrane Electrode Assembly (MEA)
 
@@ -119,10 +119,11 @@ The cad files of the flow plates can be found in [CAD files/Flow plate](https://
 # Sealing and gaskets 
 Sealing the fuel cell turned out to be an unforseen major challenge of this project. During this process, multiple iterations of the gasketing system were tried and a procedure to test out the performance was developed. This section presents this procedure, along with the final design of this system.
 
-(TO DO: sealing diagram)
+<img width="500" alt="sealing diagram" src="https://github.com/user-attachments/assets/61066296-8261-4e41-8e18-acb28e5176f7" />
+
 
 ## CAD file
-(...)
+(TO DO...)
 
 ## Testing procedure
 Each new gasket system needed to pass 3 distinct test.
@@ -157,7 +158,7 @@ The first and last flow plates are special cases in regard to sealing. For the l
 
 For the first plate, a sealing solution that keeps an electrical contact between the collector and the first flow flow plate is required. A simple gasket wouldn't work here as it would cut the electrical contact (unless it's conductive). The seal was thus realized by o-rings (dash number 010, 1/16 fractional width). Ideally, there would have been one o-ring per port, and a groove on the flow plate on the side facing foward the current collector. However, from previous iteration of the sealing system, the other side of the flow plate already had an oring groove (filled with silicone and plastic for the rest of the stack). This situation had us bore the oring groove all the way accross the plate, and using two oring stacked toghter with a piece of PTFE btween them. That's far from optimal and should be changed in the next iteration.
 
-(Image of the solution)
+(Image of the solution TO DO)
 
 # Current collectors
 The current collectors act as the elctrical interface between the fuel cell stack and the electrical circuit. Copper was selected for its high electrical conductivity, but surface corrosion was a concern. To prevent it,the current collectors were silver coated using [Nushine Silver Plating Solution 3.4 Oz](https://a.co/d/675oinK).
@@ -190,7 +191,8 @@ To compress the stack, eight M4 threaded rods were used to compress the two end 
 The CAD files for the endplates can be found in [CAD files/Endplate](https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/tree/main/CAD%20files/Endplate).
 
 # Stack assembly procedure
-(...)
+(TO DO...)
+
 ## Positioning rods
 In order to facilitate the allignement of everything during the assembly, two [4 mm OD fiber glass rods](https://a.co/d/973gxrt) were included in the design. Each part has two 4 mm hole (+ tolerance) to let the positioning rods go through. 
 
@@ -206,16 +208,16 @@ A filter was also crafted with a 3D printed frame and a piece composite breater 
 <img width="400" alt="{8FADFDFD-DADD-46EE-878C-21586577273D}" src="https://github.com/user-attachments/assets/fbaa9539-664d-4dac-8916-22ce5eef8c87" />
 
 
-## CAD files for the duct
-(TO DO)
+## CAD files for the duct and filter
+The CAD files for the air blower system can be found in [CAD files/Air blower system](https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/tree/main/CAD%20files/Air%20blower%20system).
 
 
 # Performances
 ## Testing
-(...)
+(TO DO...)
 
 # Recommandations
-(...)
+(TO DO...)
 # Acknowledgement
 Huge thanks to all our sponsors and to all the experts who helped us along the way!
 
