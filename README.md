@@ -83,13 +83,13 @@ The flow plates (bipolar plates), were made of 0.125" thick [Fully Resin Impregn
 
 
   The simple serpentine flow field was selected.
-<img width="788" height="594" alt="{30DB0875-6CFB-4B4F-8EC1-B9351816C968}" src="https://github.com/user-attachments/assets/16e817ca-90a8-40be-8056-ff77a9f65600" />
+<img width="300" alt="{30DB0875-6CFB-4B4F-8EC1-B9351816C968}" src="https://github.com/user-attachments/assets/16e817ca-90a8-40be-8056-ff77a9f65600" />
 
 ### Air side (cathode)
 
   All cathode flow fields that were tried followed the same idea of straight channels. The selection process was done before the optimisation of the gasket system. Indeed, nickel strips were added as back support for the gasket. The initial design was thus on that allowed the first PTFE gasket to self support and wasn't necessarely the most efficient one.
 
-  <img width="775" height="489" alt="{ACC28917-BCA8-4B8C-A650-7DEC884F8421}" src="https://github.com/user-attachments/assets/692d02ef-7ed7-42c2-9434-545a9bc5e5ca" />
+  <img width="300" alt="{ACC28917-BCA8-4B8C-A650-7DEC884F8421}" src="https://github.com/user-attachments/assets/692d02ef-7ed7-42c2-9434-545a9bc5e5ca" />
 
   **Note:** 
   * The cathode design should be a balance between the conductivity (more graphite in contact with the electrode) and air availability (less graphite in contact with the electrode)
@@ -156,7 +156,7 @@ These nickel strips were held in place using a small amount of silicone. For fur
 # Current collectors
 (...)
 # End Plates
-<img width="1053" height="756" alt="{9884F5E0-8846-489C-B124-512537534B9E}" src="https://github.com/user-attachments/assets/7ace09f3-c464-414d-b57c-0e6afd76973f" />
+<img width="300" alt="{9884F5E0-8846-489C-B124-512537534B9E}" src="https://github.com/user-attachments/assets/7ace09f3-c464-414d-b57c-0e6afd76973f" />
 
 ## Material
 In order to have a reliable seal and a well distributed compression, the end plates needs to be very stiff. To achieve this while keeping a light weight, the selected material was a 3/8" thick [Flame-Retardant Garolite G-10/FR4 Sheet](https://www.mcmaster.com/85345K752/). Note that this material is very abrasive and might damage the tooling bits. 
