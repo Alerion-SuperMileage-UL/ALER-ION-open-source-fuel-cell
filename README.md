@@ -9,7 +9,9 @@ This is a PEM open cathode fuel cell which turns pure (or prehumidified) hydroge
 
 **DISCLAIMER: At the moment of writing this, the prototype still has reliability issues. This stack is prone to leaking. Alérion Supermileage waives any responsability related to the usage of this fuel cell design. Note that hydrogen is a flammable gas. Use these files at your own risks.**
 
+<img width="350" alt="{643E1C10-7D2D-44C4-A4DE-DCD97C1D8028}" src="https://github.com/user-attachments/assets/eed6cbb9-c54b-474c-95cf-ead6003d7253" />
 <img width="200" alt="image" src="https://github.com/user-attachments/assets/e399f368-4ab9-4bef-b5a3-1159c8faaea8" />
+
 
 
 # Stack general design
@@ -77,7 +79,8 @@ The flow plates (bipolar plates), were made of 0.125" thick [Fully Resin Impregn
     ### Hydrogen side (anode)
   Among others, the following flow fields were tried on the anode side:
 
-  (Image)
+![IMG_5936 (1)](https://github.com/user-attachments/assets/88fe3a32-2230-47bb-8c2d-f624937bab28)
+
 
   The simple serpentine flow field was selected.
 <img width="788" height="594" alt="{30DB0875-6CFB-4B4F-8EC1-B9351816C968}" src="https://github.com/user-attachments/assets/16e817ca-90a8-40be-8056-ff77a9f65600" />
