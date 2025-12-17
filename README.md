@@ -150,10 +150,12 @@ These nickel strips were held in place using a small amount of silicone. For fur
 # Current collectors
 (...)
 # End Plates
+(Image of the plate TODO)
 ## Material
-(...)
+In order to have a reliable seal and a well distributed compression, the end plates needs to be very stiff. To achieve this while keeping a light weight, the selected material was a 3/8" thick [Flame-Retardant Garolite G-10/FR4 Sheet](https://www.mcmaster.com/85345K752/). Note that this material is very abrasive and might damage the tooling bits. 
 ## Ports
-(...)
+The selected connector were [Swagelok's #SS-400-1-0256](https://products.swagelok.com/en/c/straights/p/SS-400-1-0256). A 10-32 thread was tapped directly in the garolite sheet.
+
 ## Compression
 (...)
 
