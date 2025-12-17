@@ -172,7 +172,7 @@ In order to have a reliable seal and a well distributed compression, the end pla
 ## Ports
 The selected connector were [Swagelok's #SS-400-1-0256](https://products.swagelok.com/en/c/straights/p/SS-400-1-0256). A 10-32 thread was tapped directly in the garolite sheets.
 
-To keep the fitting tight over time, threadlockr was added and along with a 3D printd contraption that prevent the rotation of the two fitting like a lock wire.
+To keep the fitting tight over time, threadlockr was added and along with a 3D printed contraption that prevents the rotation of the two fittings, like a lock wire.
 
 ## Compression
 To compress the stack, eight M4 threaded rods were used to compress the two end plates together. A nut was also welded on one end of each rod to turn it into a long hex head bolt. Note that washers are needed to avoid damage on the end plates during compression.
