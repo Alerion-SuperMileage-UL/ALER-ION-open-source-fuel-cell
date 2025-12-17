@@ -147,6 +147,15 @@ These nickel strips were held in place using a small amount of silicone. For fur
 
 
 ## Sealing interface with negative current collector and end plate
+The first and last flow plates are special cases in regard to sealing. For the last flow plate (the first one being the closest one to the ports), the inlet and outlet holes were simply omitted, which naturally keeps the hydrogen from reaching the current collector.
+
+For the first plate, a sealing solution that keeps an electrical contact between the collector and the first flow flow plate is required. A simple gasket wouldn't work here as it would cut the electrical contact (unless it's conductive). The seal was thus realized by o-rings.
+
+(Image of the solution)
+
+- double oring with PTFE
+- oring size and hardnss
+- recomandtaions
 ### Manufacturing process
 (...)
 
