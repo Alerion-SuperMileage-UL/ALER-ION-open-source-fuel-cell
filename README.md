@@ -20,10 +20,10 @@ This project was realized as a "Projet de fin d'étude" and the final design rep
 (...)
 
 # CAD files
-(TO DO)
+(TO DO...)
 
 # Bill of material
-(TO DO)
+(TO DO...)
 
 # Membrane Electrode Assembly (MEA)
 
@@ -122,7 +122,7 @@ Sealing the fuel cell turned out to be an unforseen major challenge of this proj
 (TO DO: sealing diagram)
 
 ## CAD file
-(...)
+(TO DO...)
 
 ## Testing procedure
 Each new gasket system needed to pass 3 distinct test.
@@ -190,7 +190,8 @@ To compress the stack, eight M4 threaded rods were used to compress the two end 
 The CAD files for the endplates can be found in [CAD files/Endplate](https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/tree/main/CAD%20files/Endplate).
 
 # Stack assembly procedure
-(...)
+(TO DO...)
+
 ## Positioning rods
 In order to facilitate the allignement of everything during the assembly, two [4 mm OD fiber glass rods](https://a.co/d/973gxrt) were included in the design. Each part has two 4 mm hole (+ tolerance) to let the positioning rods go through. 
 
@@ -212,10 +213,10 @@ The CAD files for the air blower system can be found in [CAD files/Air blower sy
 
 # Performances
 ## Testing
-(...)
+(TO DO...)
 
 # Recommandations
-(...)
+(TO DO...)
 # Acknowledgement
 Huge thanks to all our sponsors and to all the experts who helped us along the way!
 
