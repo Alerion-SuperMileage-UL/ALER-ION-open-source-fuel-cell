@@ -157,7 +157,7 @@ In order to have a reliable seal and a well distributed compression, the end pla
 The selected connector were [Swagelok's #SS-400-1-0256](https://products.swagelok.com/en/c/straights/p/SS-400-1-0256). A 10-32 thread was tapped directly in the garolite sheet.
 
 ## Compression
-(...)
+To compress the stack, eight M4 threaded rod were used to compress the two end plates together. A nut was also welded on one end of each rod to turn it into a long hex head bolt. Note that washers are needed to avoid damage on the end plates during compression.
 
 # Stack assembly procedure
 (...)
