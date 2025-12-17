@@ -111,7 +111,7 @@ The flow plates (bipolar plates), were made of 0.125" thick [Fully Resin Impregn
 
   For the anode side of the stack, where the inlet and outlet are, the o-ring grooves of the cathode side of the plate were not filled like the other plates. At least for this last plate, the o-ring grooves needs to stay in the design. Moreover, although it's not necessary, the cathode side flow fields can be removed to allow maximum contact with the current collector.
   ## CAD file
-  (...)
+The cad files of the flow plates can be found at [`CAD files/Flow plate`](https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/tree/main/CAD%20files/Flow%20plate).
 
 
 
