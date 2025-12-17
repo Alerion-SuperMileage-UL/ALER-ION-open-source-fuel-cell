@@ -22,7 +22,7 @@ This project was realized as a "Projet de fin d'étude" and the final design rep
 # CAD files
 The CAD files for this project is available in [CAD files](https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/tree/main/CAD%20files). All file are available in *.step* format and as fusion 360 files (with the history tree for easy modification).
 
-The `Fuel cell stack assembly` file is the CAD file of the whole fuel cell stack.
+(TODO: The `Fuel cell stack assembly` file **will be** the CAD file of the whole fuel cell stack.)
 
 # Bill of material
 (TO DO...)
