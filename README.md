@@ -31,7 +31,7 @@ The CAD files for this project is available in [CAD files](https://github.com/Al
 
 The MEA is composed by two carbon clothes electrodes sandwiched around a proton-exchange membrane.
 
-<img width="350" alt="{682CDC34-29BD-45FB-BDDA-95B5D1C561A5}" src="https://github.com/user-attachments/assets/be045413-f12a-423f-94f6-7fd99af55c0a" />
+<img width="200" alt="{682CDC34-29BD-45FB-BDDA-95B5D1C561A5}" src="https://github.com/user-attachments/assets/be045413-f12a-423f-94f6-7fd99af55c0a" />
 
   ## Proton exchange membrane
   The proton exchange membrane used was a [HP9-Pt ePTFE Reinforced, Pt Impregnated PFSA Membrane](https://www.fuelcellstore.com/eptfe-reinforced-pfsa-membrane-9-microns-pt-impregnated?search=78010010) from the [Fuel Cell store](www.fuelcellstore.com).
