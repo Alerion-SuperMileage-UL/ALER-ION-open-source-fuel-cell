@@ -78,7 +78,7 @@ The flow plates (bipolar plates), were made of 0.125" thick [Fully Resin Impregn
 
 **Note:** 
 * Machining graphite produces a very fine dust. This should be done in a well ventilated area with appropriate respirators. A shop-vac was used to further control the produced dust.
-* Machining parameter: (TO DO)
+
   ## Flow field design and geometry
     Multiple flow fields geometry were tried and the ones producing the most power were selected. However, it should be noted that their was a high degree of uncertainty on the results so this process should be done again in the future.
     ### Hydrogen side (anode)
