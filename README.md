@@ -106,6 +106,9 @@ The flow plates (bipolar plates), were made of 0.125" thick [Fully Resin Impregn
   
 ***New design still shoudn't include this feature, but carefull consideration must be taken if the gasket system remains unchanged.***
 
+<img width="300" alt="{8F8FE4D9-8604-4AC9-B960-A8A56247C3E5}" src="https://github.com/user-attachments/assets/7b6f85e5-7b58-475c-bc9e-bdd151912377" />
+
+
   #### Holes
   Each flow plates has four holes: two port (inlet and outlet) and two other for the positioning rods.
   ### End flow plates
