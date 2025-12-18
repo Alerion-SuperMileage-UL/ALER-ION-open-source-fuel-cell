@@ -169,9 +169,9 @@ For the first plate, a sealing solution that keeps an electrical contact between
 
 <img width="200" alt="{D819177F-0591-4949-9D88-9786E186D766}" src="https://github.com/user-attachments/assets/1393adf4-b7bb-42ec-bcf0-257621f562ca" />
 
+To seal off the interface between the first current collector and the first end plate, a simple gasket, made from the same material as the main gasket was used.
 
-
-TODO: gasket between current collector and end plate
+<img width="200" alt="{8BC15475-6748-409D-AFD8-CBDC90FAE1FF}" src="https://github.com/user-attachments/assets/c8955e8d-21d0-4745-a154-43016d611487" />
 
 # Current collectors
 The current collectors act as the elctrical interface between the fuel cell stack and the electrical circuit. Copper was selected for its high electrical conductivity, but surface corrosion was a concern. To prevent it,the current collectors were silver coated using [Nushine Silver Plating Solution 3.4 Oz](https://a.co/d/675oinK).
