@@ -24,8 +24,8 @@ The CAD files for this project is available in [CAD files](https://github.com/Al
 
 The `Fuel cell stack assembly` file is the CAD file of the whole fuel cell stack.
 
-# Bill of material
-(TO DO...)
+# Bill of materials
+The bill of materials is available in [BOM/BOM.xlsx](https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/tree/main/BOM).
 
 # Membrane Electrode Assembly (MEA)
 
