@@ -169,7 +169,7 @@ The first and last flow plates are special cases in regard to sealing. For the l
 
 For the first plate, a sealing solution that keeps an electrical contact between the collector and the first flow flow plate is required. A simple gasket wouldn't work here as it would cut the electrical contact (unless it's conductive). The seal was thus realized by o-rings (dash number 010, 1/16 fractional width). Ideally, there would have been one o-ring per port, and a groove on the flow plate on the side facing foward the current collector. However, from previous iteration of the sealing system, the other side of the flow plate already had an oring groove (filled with silicone and plastic for the rest of the stack). This situation had us bore the oring groove all the way accross the plate, and using two oring stacked toghter with a piece of PTFE btween them. That's far from optimal and should be changed in the next iteration.
 
-<img width="300" alt="{D819177F-0591-4949-9D88-9786E186D766}" src="https://github.com/user-attachments/assets/1393adf4-b7bb-42ec-bcf0-257621f562ca" />
+<img width="200" alt="{D819177F-0591-4949-9D88-9786E186D766}" src="https://github.com/user-attachments/assets/1393adf4-b7bb-42ec-bcf0-257621f562ca" />
 
 
 
