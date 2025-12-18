@@ -231,8 +231,6 @@ The CAD files for the air blower system can be found in [CAD files/Air blower sy
 ## Testing
 (TO DO...)
 
-# Recommandations
-(TO DO...)
 # Acknowledgement
 Huge thanks to all our sponsors and to all the experts who helped us along the way!
 
