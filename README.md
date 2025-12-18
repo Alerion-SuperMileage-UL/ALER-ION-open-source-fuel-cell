@@ -141,7 +141,7 @@ The final test for the fuel cell was a submerged leak test. For this test, some 
 
 
 ## Main gasket
-The last iteration of the main gasket was cut out of a 15 mil EPDM 50A rubber sheet. It was cut using the same procedure as the proton-exchange membrane, with double sided tape (from Dollarama) to hold it to the 3D printer bed. This procedure was far from perfect as the rubber tends to be dragged up by the cutting blade. Multiple slow passes were made to alleviate this issue, but the fail rate was still high. A real CNC drag knife with a longer cutting blade, or laser cutting might help.
+The last iteration of the main gasket was cut out of a [15 mil EPDM 50A rubber sheet](https://www.grainger.ca/en/product/p/WWG2UNW5). It was cut using the same procedure as the proton-exchange membrane, with double sided tape (from Dollarama) to hold it to the 3D printer bed. This procedure was far from perfect as the rubber tends to be dragged up by the cutting blade. Multiple slow passes were made to alleviate this issue, but the fail rate was still high. A real CNC drag knife with a longer cutting blade, or laser cutting might help.
 
 For further iteration, harder rubber (EPDM 70A) should be tried as it would probably be easier to cut, and it might hold pressure better. 
 
