@@ -144,8 +144,14 @@ For further iteration, harder rubber (EPDM 70A) should be tried as it would prob
 
 The benefit of this material, over teflon, which is way easier to cut-out, is that it compresses well, allowing a good electrical contact and a good seal at a resonable compression (too much compression breaks the graphite). However, it also caused several issues. 
 
+<img width="200" alt="{1AAF5251-57B7-48D0-AB14-D3F54ACDE881}" src="https://github.com/user-attachments/assets/6fdc2169-f7a3-42ee-8794-fbc490b66bfd" />
+
+
 ## Subgasket
 First, because of its "squishyness" and good gripping properties, when compressed, the EPDM gasket  would grip on the proton exchange membrane (PEM) and tear it has the contact surface would expand under compression. To solve this, a 1 mil PTFE sub-gasket was added (this feature is known as edge protection [(Min Wang et al 2019)](https://iopscience.iop.org/article/10.1149/09208.0351ecst)). This created a sliperry protective layer between the PEM and the EPDM gasket, without compromising the seal. It was cut out using the same proceduree as the PEM and the EPDM gasket. For further improvements, 2 mil PTFE subgasket could be tried to improve the durability of this piece, as it tends to wear out after being compressed.
+
+<img width="200" alt="{ACD0C022-2CFB-4C2A-B5AC-9CDCB83F5C3C}" src="https://github.com/user-attachments/assets/b3856b8e-cd7b-474e-8e29-ded9189507f2" />
+
 
 ## Back support and margins
 Next, because of its high compressibility, the EPDM gasket tended to squish in the hydrogen channels, cutting out the hydrogen flow entirely. Nickel back support were thus added where the gasket had to go over the flow channels. Also, appropriate margin between the gasket holes and any flow field feature (flow channels, port holes, etc.) were needed has the gasket expands under compression. To spot where to add more margin, we looked at the marks left of the rubber after the compression.
