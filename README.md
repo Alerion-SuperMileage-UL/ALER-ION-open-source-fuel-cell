@@ -203,13 +203,7 @@ To compress the stack, eight M4 threaded rods were used to compress the two end 
 ## CAD files
 The CAD files for the endplates can be found in [CAD files/Endplate](https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/tree/main/CAD%20files/Endplate).
 
-# Stack assembly procedure
-(TO DO...)
 
-## Positioning rods
-In order to facilitate the allignement of everything during the assembly, two [4 mm OD fiber glass rods](https://a.co/d/973gxrt) were included in the design. Each part has two 4 mm hole (+ tolerance) to let the positioning rods go through. 
-
-About mid way into the compression of the stack, when the risk of shifting of the components is reduced, the rods are removed to remove all friction that could result in uneven compression across all cells.
 
 # Air blower
 The first tests of the fuel cell stack indicated that the current was limited by the low air flow in the flow field. This could be due to oxygen concentration or water removal.
@@ -220,9 +214,19 @@ A filter was also crafted with a 3D printed frame and a piece composite breater 
 
 <img width="400" alt="{8FADFDFD-DADD-46EE-878C-21586577273D}" src="https://github.com/user-attachments/assets/fbaa9539-664d-4dac-8916-22ce5eef8c87" />
 
-
 ## CAD files for the duct and filter
 The CAD files for the air blower system can be found in [CAD files/Air blower system](https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/tree/main/CAD%20files/Air%20blower%20system).
+
+
+
+
+# Stack assembly procedure
+(TO DO...)
+
+## Positioning rods
+In order to facilitate the allignement of everything during the assembly, two [4 mm OD fiber glass rods](https://a.co/d/973gxrt) were included in the design. Each part has two 4 mm hole (+ tolerance) to let the positioning rods go through. 
+
+About mid way into the compression of the stack, when the risk of shifting of the components is reduced, the rods are removed to remove all friction that could result in uneven compression across all cells.
 
 
 # Performances
