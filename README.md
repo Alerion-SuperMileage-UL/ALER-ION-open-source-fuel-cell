@@ -223,13 +223,24 @@ The CAD files for the air blower system can be found in [CAD files/Air blower sy
 
 
 # Stack assembly procedure
-(TO DO...)
+
+An extensive assembly procedure was never put together. However, here are a few guidelines for the assembly:
+
+* First, the MEA must be pre-humidify before being put in the stack. To do so, the MEA are left to float in distilled water  for a few minutes. Wetting the gaskets and sub-gaskets can also help.
+* When handling the MEA, wear clean gloves to avoid contaminating the membrane with any grease.
+* To assemble the MEA with the gasket and flow plates, start using the end plate with the positionnig rods. Each element is then slide through on op of each other.
+* Beware not to leave any folds or wrinkle in the MEA and gaskets.
+* Make sure that the membrane is protected from the main gasket by the sub-gasket. Any contact between the two during ompression will lead to tear in the membrane.
+* To compress the stack, use a torque screw driver. All eight threaded rod must be bolted in a star pattern with multiple increments in the torque. The final value of the torque is 75 **(units???)**.
+* A set of [3D printed screwdriver wrench] (link!!) were used for this project. This worked well, but I would recommand to buy this tool for a better repeatabilty.
+* About half-way through the compression, when the risk of movements between the cells is low, remove the positioning rods.
+* For the O-rings, Swagelok fitting (with a rubber gasket) and endplate gasket, a bit of silicone grease can be added to help the the gasket to create a good seal. **Note that this must NOT be done on the main gasket, or any component in contact with the membranes, becaus it can damage them.**
+* The maximum recommended number of cells per stack is ~20.
 
 ## Positioning rods
 In order to facilitate the allignement of everything during the assembly, two [4 mm OD fiber glass rods](https://a.co/d/973gxrt) were included in the design. Each part has two 4 mm hole (+ tolerance) to let the positioning rods go through. 
 
 About mid way into the compression of the stack, when the risk of shifting of the components is reduced, the rods are removed to remove all friction that could result in uneven compression across all cells.
-
 
 # Performances
 ## Testing
