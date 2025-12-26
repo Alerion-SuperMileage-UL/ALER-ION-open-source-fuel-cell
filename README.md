@@ -1,11 +1,11 @@
 # ALÉR-ION OPEN SOURCE HYDROGEN FUEL CELL
-*Note: The full documentation for this project is in progress. Sections marked with "(...)" will be updated in a near future. Feel free to contact me at mederic.chalifour.1@ulaval.ca for any question.*
+*Note: The full documentation for this project is in progress. Sections marked with "(...)" will be updated in the near future. Feel free to contact me at mederic.chalifour.1@ulaval.ca for any questions.*
 
-Alérion Supermilage is a student group at l'Université Laval who focusses on the developpement of high efficiency vehicles for various competitions. Up until 2024, the team always relied on an internal combustion engines. They then transitioned toward an electric-driven system with a battery. In 2025, the project of a self-made hydrogen PEM fuel cell was born. With the spirit of sharing knowledge and helping others develop this technology, all the relevant design files are release as an open-source project.
+Alérion Supermileage is a student group at l'Université Laval who focuses on the development of high efficiency vehicles for various competitions. Up until 2024, the team always relied on internal combustion engines. They then transitioned toward an electric-driven system with a battery. In 2025, the project of a self-made hydrogen PEM fuel cell was born. With the spirit of sharing knowledge and helping others develop this technology, all the relevant design files are released as an open-source project.
 
 This is a PEM open cathode fuel cell which turns pure (or prehumidified) hydrogen gas into electrical power.
 
-**DISCLAIMER: At the moment of writing this, the prototype still has reliability issues. This stack is prone to leaking. Alérion Supermileage and every contributors of this project waive all responsability related to the usage of this fuel cell design. Note that hydrogen is a flammable gas. Use these files at your own risks.**
+**DISCLAIMER: At the moment of writing this, the prototype still has reliability issues. This stack is prone to leaking. Alérion Supermileage and every contributors of this project waive all responsibility related to the usage of this fuel cell design. Note that hydrogen is a flammable gas. Use these files at your own risk.**
 
 <img width="350" alt="{F411903D-C956-4F15-B26A-56FD519BAC25}" src="https://github.com/user-attachments/assets/6cdb02d2-ca60-4c31-b30d-e5a6d435cf3e" />
 
@@ -14,13 +14,13 @@ This is a PEM open cathode fuel cell which turns pure (or prehumidified) hydroge
 
 
 # Stack general design
-This project was realized as a "Projet de fin d'étude" and the final design report is available (in french) in [Additional documentation/Rapport_final_PFE.pdf](https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/blob/f2cdef219edfe725619d7147de9b8b1a14c1f4f9/Additional%20documentation/Rapport_final_PFE.pdf). 
+This project was realized as a "Projet de fin d'étude" and the final design report is available (in French) in [Additional documentation/Rapport_final_PFE.pdf](https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/blob/f2cdef219edfe725619d7147de9b8b1a14c1f4f9/Additional%20documentation/Rapport_final_PFE.pdf). 
 
 
-The aimed power rating of this fuel cell is ~300 W. Some PEM fuel cells can reach a power density of 0.6 W/cm², so the total active surface area needs to be at least 500 cm². Next, the maximum voltage allowed in this project was 60V. With the assumption that the maximum voltage per cell, in operation would be ~1 V, the stack would require ~60 cells of 8.3 cm² of active area. This figure was rounded up to a square of 3cm X 3cm (9 cm²) to optimize the cutting of the 30cm x 30cm electrode sheets. Note that the 60 cells can be distributed in more than one stack connected in series to facilitate the assembly and maintenance.
+The aimed power rating of this fuel cell is ~300 W. Some PEM fuel cells can reach a power density of 0.6 W/cm², so the total active surface area needs to be at least 500 cm². Next, the maximum voltage allowed in this project was 60V. With the assumption that the maximum voltage per cell, would be ~1 V in operation, the stack would require ~60 cells of 8.3 cm² of active area. This figure was rounded up to a square of 3 cm × 3 cm (9 cm²) to optimize the cutting of the 30cm x 30cm electrode sheets. Note that the 60 cells can be distributed in more than one stack connected in series to facilitate the assembly and maintenance.
 
 # CAD files
-The CAD files for this project is available in [CAD files](https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/tree/main/CAD%20files). All file are available in *.step* format and as fusion 360 files (with the history tree for easy modification).
+The CAD files for this project are available in [CAD files](https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/tree/main/CAD%20files). All files are available in *.step* format and as fusion 360 files (with the history tree for easy modification).
 
 The `Fuel cell stack assembly` file is the CAD file of the whole fuel cell stack.
 
@@ -29,7 +29,7 @@ The bill of materials is available in [BOM/BOM.xlsx](https://github.com/Alerion-
 
 # Membrane Electrode Assembly (MEA)
 
-The MEA is composed by two carbon clothes electrodes sandwiched around a proton-exchange membrane.
+The MEA is composed of two carbon cloth electrodes sandwiched around a proton-exchange membrane.
 
 <img width="200" alt="{682CDC34-29BD-45FB-BDDA-95B5D1C561A5}" src="https://github.com/user-attachments/assets/be045413-f12a-423f-94f6-7fd99af55c0a" />
 
@@ -38,11 +38,11 @@ The MEA is composed by two carbon clothes electrodes sandwiched around a proton-
 
 **Note:** 
 
-* The membrane is shipped with a plastic cover film on one side. This film is useful to hold the membrane flat during the cutting and hot pressing steps, but should be remove before the stack assembly.
-* Being only 9um thick, this membrane was selected aiming for high performances. However, even though it could handle the working pressure (~6 psi) when tested on in a single cell stack, it was shown to be a weak point when scaling up to multiple cells. It seams to be easily punctured or teared, either in the manual assembly process or by the hydrogen pressure.
+* The membrane is shipped with a plastic cover film on one side. This film is useful to hold the membrane flat during the cutting and hot pressing steps, but should be removed before the stack assembly.
+* Being only 9 µm thick, this membrane was selected aiming for high performance. However, even though it could handle the working pressure (~6 psi) when tested in a single cell stack, it was shown to be a weak point when scaling up to multiple cells. It seems to be easily punctured or torn, either in the manual assembly process or by the hydrogen pressure.
 * " [...] *This membrane has a cover film on one face in order to protect the membrane during shipping.  Platinum impregnation is done on the face that is away from the cover film. For best utilization of the Pt impregnation from the membrane manufacturer, it is recommended that the Pt side is placed toward the anode of the electrolyzer cell (cathode of the fuel cell) electrochemical cell.  This Pt impregnation is actually a Pt nanopowder that is incorporated into the entire surface of the membrane on the side opposite the single backing.  This platinum layer is not sufficient to sustain the electrochemical reactions of the cells, it is only intended to react the minute crossover gases that occur naturally in all membranes.* [...]" 
 
-**Recommandation:** For future developpement, it might be wiser to start using a thickness closer to the industry standard of 50 um to obtain a reliable stack, and then go down in thickness to optimise the performances.
+**Recommendation:** For future development, it might be wiser to start using a thickness closer to the industry standard of 50 um to obtain a reliable stack, and then go down in thickness to optimise the performance.
 
   ### Automated cutting
   In order to cut each membrane precisely and reliably, an *Ender 3* 3D printer was converted to a CNC drag knife using a "plotter blade". During this process, the membrane was left on its protective plastic film.
@@ -58,29 +58,29 @@ The CAD file for the membrane can be found in [CAD files/Membrane](https://githu
 
   ## Electrode
 
-The electrode selected for this project were the [2 mg/cm² Platinum Black - Carbon Cloth Electrode (W1S1011)](https://www.fuelcellstore.com/carbon-cloth-2-ptb-gas-diffusion-electrode-w1s1011?search=11060067) from the [Fuel Cell store](www.fuelcellstore.com). They were cut in 30mm X 30mm using a utility knife.
+The electrode selected for this project was the [2 mg/cm² Platinum Black - Carbon Cloth Electrode (W1S1011)](https://www.fuelcellstore.com/carbon-cloth-2-ptb-gas-diffusion-electrode-w1s1011?search=11060067) from the [Fuel Cell store](www.fuelcellstore.com). They were cut in 30mm X 30mm using a utility knife.
 
-**Note and recommandation:** A high platinum loading of 2 mg/cm² was selected aiming for high performances. This choice inflates the cost of the stack by a lot and a lower platinum loading (0.5 mg/cm² for example) could be used to reduce the testing and developpemement cost. Also note that the carbon clothe electrode, which was selected for being easier to work with compared to carbon paper electrode, are better suited at high humidity level [(Wang, 2007)](https://doi.org/10.1016/j.electacta.2006.11.012).
+**Note and recommendation:** A high platinum loading of 2 mg/cm² was selected aiming for high performance. This choice inflates the cost of the stack by a lot and a lower platinum loading (0.5 mg/cm² for example) could be used to reduce the testing and development cost. Also note that the carbon cloth electrode, which was selected for being easier to work with compared to carbon paper electrode, is better suited at high humidity level [(Wang, 2007)](https://doi.org/10.1016/j.electacta.2006.11.012).
 
   ## Hot press
-To make each MEA, the precut membrane is hot pressed between to precut electrode. The heated press used in this project is a *5 Ton Portable Hydraulic Heat Press Machine 2.3 x 4.7 Inch*.
+To make each MEA, the precut membrane is hot pressed between two precut electrodes. The heated press used in this project is a *5 Ton Portable Hydraulic Heat Press Machine 2.3 x 4.7 Inch*.
 
 <img width="156" alt="image" src="https://github.com/user-attachments/assets/18015150-ff39-41fa-bc1a-4f7113b10202" />
 
-For each MEA, a printed template and some tape were used to aligned the electrode to the membrane. The membrane was left on its plastic protective film during the pressing but the bottom electrode was inserted between the membrane and the film by lifting the corner with some tweezers (beware not to scratch the membrane). Note that the platinum coating of the electrodes must face the membrane. 
+For each MEA, a printed template and some tape were used to align the electrode to the membrane. The membrane was left on its plastic protective film during the pressing but the bottom electrode was inserted between the membrane and the film by lifting the corner with some tweezers (beware not to scratch the membrane). Note that the platinum coating of the electrodes must face the membrane. 
 
-Each MEA was hot pressed at 66 kg/cm², 97°C for 3.56 minutes to optimize the stack's performances [(Okur, 2013)](https://doi.org/https://doi.org/10.1016/j.energy.2013.05.001). The pressure was set suspending a weight on the press lever (acounting for the hydraulic mecanical advantage) and considering the area of the electrodes only (9 cm²).
+Each MEA was hot pressed at 66 kg/cm², 97°C for 3.56 minutes to optimize the stack's performances [(Okur, 2013)](https://doi.org/https://doi.org/10.1016/j.energy.2013.05.001). The pressure was set suspending a weight on the press lever (accounting for the hydraulic mechanical advantage) and considering the area of the electrodes only (9 cm²).
 
 # Graphite flow plates
 The flow plates (bipolar plates), were made of 0.125" thick [Fully Resin Impregnated Graphite Plates](https://www.fuelcellstore.com/impervious-bipolar-graphite-plates). 
   ## Machining
-  Each Plate were manufacture using a small benchtop CNC router (_Genmitsu CNC 3018-PRO_) with a 1/32" endmill.
+  Each Plate were manufactured using a small benchtop CNC router (_Genmitsu CNC 3018-PRO_) with a 1/32" endmill.
 
 **Note:** 
 * Machining graphite produces a very fine dust. This should be done in a well ventilated area with appropriate respirators. A shop-vac was used to further control the produced dust.
 
   ## Flow field design and geometry
-    Multiple flow fields geometry were tried and the ones producing the most power were selected. However, it should be noted that their was a high degree of uncertainty on the results so this process should be done again in the future.
+    Multiple flow fields geometry were tried and the ones producing the most power were selected. However, it should be noted that there was a high degree of uncertainty on the results so this process should be done again in the future.
     ### Hydrogen side (anode)
   Among others, the following flow fields were tried on the anode side:
 
@@ -93,18 +93,18 @@ The flow plates (bipolar plates), were made of 0.125" thick [Fully Resin Impregn
 
 ### Air side (cathode)
 
-  All cathode flow fields that were tried followed the same idea of straight channels. The selection process was done before the optimisation of the gasket system. Indeed, nickel strips were added as back support for the gasket. The initial design was thus on that allowed the first PTFE gasket to self support and wasn't necessarely the most efficient one.
+  All cathode flow fields that were tried followed the same idea of straight channels. The selection process was done before the optimisation of the gasket system. Indeed, nickel strips were added as back support for the gasket. The initial design was thus one that allowed the first PTFE gasket to self support and wasn't necessarily the most efficient one.
 
   <img width="300" alt="{ACC28917-BCA8-4B8C-A650-7DEC884F8421}" src="https://github.com/user-attachments/assets/692d02ef-7ed7-42c2-9434-545a9bc5e5ca" />
 
   **Note:** 
   * The cathode design should be a balance between the conductivity (more graphite in contact with the electrode) and air availability (less graphite in contact with the electrode)
-  * The depth of the channels also affects the strength of the plates. This should also be considered as cracked plated cause leakage.
+  * The depth of the channels also affects the strength of the plates. This should also be considered as cracked plates cause leakage.
 ### Other features
   #### O-ring slots
-  The first design of the sealing system included o-rings on both sides of the bipolar plates. These are no longer in the design as its sealing ability was highly sensitive to the o-ring grooves depth, causing reliability issue. The same plates were later retrofitted to work with flat gaskets. The cathode side o-ring grooves were filled using silicone and some custom 3D printed spacers. The cathode side o-ring grooves can thus be remove from later version without any trouble (probably...). The anode side groove is also not used anymore, further tests should be conductd before removing it from the design as the gasket system was designed to fit on plate with this feature. If removed, one possible risk chould be that the current EPDM gasket which had this space to be squished-in before (thus not geting out of the PTFE subgasket), could reach the membrane and damage it. 
+  The first design of the sealing system included o-rings on both sides of the bipolar plates. These are no longer in the design as its sealing ability was highly sensitive to the o-ring grooves depth, causing reliability issue. The same plates were later retrofitted to work with flat gaskets. The cathode side o-ring grooves were filled using silicone and some custom 3D printed spacers. The cathode side o-ring grooves can thus be removed from later version without any trouble (probably...). The anode side groove is also not used anymore, further tests should be conducted before removing it from the design as the gasket system was designed to fit on plate with this feature. If removed, one possible risk could be that the current EPDM gasket which had this space to be squished-in before (thus not geting out of the PTFE subgasket), could reach the membrane and damage it. 
   
-***New design still shoudn't include this feature, but carefull consideration must be taken if the gasket system remains unchanged.***
+***New design still shouldn't include this feature, but careful consideration must be taken if the gasket system remains unchanged.***
 
 <img width="300" alt="{8F8FE4D9-8604-4AC9-B960-A8A56247C3E5}" src="https://github.com/user-attachments/assets/7b6f85e5-7b58-475c-bc9e-bdd151912377" />
 
@@ -122,7 +122,7 @@ The cad files of the flow plates can be found in [CAD files/Flow plate](https://
 
 
 # Sealing and gaskets 
-Sealing the fuel cell turned out to be an unforseen major challenge of this project. During this process, multiple iterations of the gasketing system were tried and a procedure to test out the performance was developed. This section presents this procedure, along with the final design of this system.
+Sealing the fuel cell turned out to be an unforeseen major challenge of this project. During this process, multiple iterations of the gasketing system were tried and a procedure to test out the performance was developed. This section presents this procedure, along with the final design of this system.
 
 <img width="500" alt="sealing diagram" src="https://github.com/user-attachments/assets/61066296-8261-4e41-8e18-acb28e5176f7" />
 
@@ -131,13 +131,13 @@ Sealing the fuel cell turned out to be an unforseen major challenge of this proj
 The CAD for the sealing system can be found in [CAD files/Sealing system](https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/tree/main/CAD%20files/Sealing%20system).
 
 ## Testing procedure
-Each new gasket system needed to pass 3 distinct test.
+Each new gasket system needed to pass 3 distinct tests.
 ### Electrical contact
-First the gasket shouldn't affect the electrical performance of the fuel cell. In other words, we had to ensure that the electrical resistance between the carbon clothe electrodes and the graphite bipolar plates didn't increase when the gasket was added. This meant that the gaskets, once compressed, shouldn't be thicker than the electrodes. To test this, we used a stack of two bipolar plate with the current collectors and sandwiched only one electrode, without the membrane and the gasket to measure the resistance. The voltage drop was measured with constant current power supply of 5A applied on the current collectors. This baseline resistance was on the order of 9mOhm. Then the same experiment was repeated with the gasket system (half of it if it was symetrical, else two stacked electrode are required). The resulting resistance had to be in the same range. This test was also used to determined the effect of different torque on the compression screws on the cell resistance.
+First the gasket shouldn't affect the electrical performance of the fuel cell. In other words, we had to ensure that the electrical resistance between the carbon clothe electrodes and the graphite bipolar plates didn't increase when the gasket was added. This meant that the gaskets, once compressed, shouldn't be thicker than the electrodes. To test this, we used a stack of two bipolar plates with the current collectors and sandwiched only one electrode, without the membrane and the gasket to measure the resistance. The voltage drop was measured with constant current power supply of 5 A applied on the current collectors. This baseline resistance was on the order of 9mOhm. Then the same experiment was repeated with the gasket system (half of it if it was symmetrical, else two stacked electrode are required). The resulting resistance had to be in the same range. This test was also used to determine the effect of different torque on the compression screws on the cell resistance.
 ### Membrane integrity
-During the testing phase, we observed that some gasket systems would damage the proton exchange membrane. In other words, squishy materials, like EPDM rubber, would grip on the membrane and stretch it out, causing small tears which majorly compromised the sealing structure. This observation led to the introduction of a thin PTFE sub-gasket in the design. When we tested different system, instem of testing with a new MEA each time, we would try with a simple humidified membrane and then observe it directly (the membrane shouldn't be deformed or damage by compressing it in the fuel cell).
+During the testing phase, we observed that some gasket systems would damage the proton exchange membrane. In other words, squishy materials, like EPDM rubber, would grip on the membrane and stretch it out, causing small tears which majorly compromised the sealing structure. This observation led to the introduction of a thin PTFE sub-gasket in the design. When we tested different system, instead of testing with a new MEA each time, we would try with a simple humidified membrane and then observe it directly (the membrane shouldn't be deformed or damage by compressing it in the fuel cell).
 ### Leak test
-The final test for the fuel cell was a submerged leak test. For this test, some compressed air was used to see if the fuel cell would hold the design pressure (6-10 psi). Note that it was simpler and safer to use air from the workshop than to go in the lab to try this with hydrogen. Then, the fuel cell was submerged in distilled water in a transparent pot to identify the origin of the leaks (or to find smaller ons). Each new design was first tested with only one or two cells, and later retested with more and more cells to validate the sealing system.
+The final test for the fuel cell was a submerged leak test. For this test, some compressed air was used to see if the fuel cell would hold the design pressure (6-10 psi). Note that it was simpler and safer to use air from the workshop than to go in the lab to try this with hydrogen. Then, the fuel cell was submerged in distilled water in a transparent pot to identify the origin of the leaks (or to find smaller ones). Each new design was first tested with only one or two cells, and later retested with more and more cells to validate the sealing system.
 
 
 ## Main gasket
@@ -145,13 +145,13 @@ The last iteration of the main gasket was cut out of a [15 mil EPDM 50A rubber s
 
 For further iteration, harder rubber (EPDM 70A) should be tried as it would probably be easier to cut, and it might hold pressure better. 
 
-The benefit of this material, over teflon, which is way easier to cut-out, is that it compresses well, allowing a good electrical contact and a good seal at a resonable compression (too much compression breaks the graphite). However, it also caused several issues. 
+The benefit of this material, over teflon, which is way easier to cut-out, is that it compresses well, allowing a good electrical contact and a good seal at a reasonable compression (too much compression breaks the graphite). However, it also caused several issues. 
 
 <img width="200" alt="{1AAF5251-57B7-48D0-AB14-D3F54ACDE881}" src="https://github.com/user-attachments/assets/6fdc2169-f7a3-42ee-8794-fbc490b66bfd" />
 
 
 ## Subgasket
-First, because of its "squishyness" and good gripping properties, when compressed, the EPDM gasket  would grip on the proton exchange membrane (PEM) and tear it has the contact surface would expand under compression. To solve this, a 1 mil PTFE sub-gasket was added (this feature is known as edge protection [(Min Wang et al 2019)](https://iopscience.iop.org/article/10.1149/09208.0351ecst)). This created a sliperry protective layer between the PEM and the EPDM gasket, without compromising the seal. It was cut out using the same proceduree as the PEM and the EPDM gasket. For further improvements, 2 mil PTFE subgasket could be tried to improve the durability of this piece, as it tends to wear out after being compressed.
+First, because of its "squishiness" and good gripping properties, when compressed, the EPDM gasket  would grip on the proton exchange membrane (PEM) and tear it as the contact surface would expand under compression. To solve this, a 1 mil PTFE sub-gasket was added (this feature is known as edge protection [(Min Wang et al 2019)](https://iopscience.iop.org/article/10.1149/09208.0351ecst)). This created a slippery protective layer between the PEM and the EPDM gasket, without compromising the seal. It was cut out using the same procedure as the PEM and the EPDM gasket. For further improvements, 2 mil PTFE subgasket could be tried to improve the durability of this piece, as it tends to wear out after being compressed.
 
 <img width="200" alt="{ACD0C022-2CFB-4C2A-B5AC-9CDCB83F5C3C}" src="https://github.com/user-attachments/assets/b3856b8e-cd7b-474e-8e29-ded9189507f2" />
 
@@ -176,12 +176,12 @@ To seal off the interface between the first current collector and the first end 
 <img width="200" alt="{8BC15475-6748-409D-AFD8-CBDC90FAE1FF}" src="https://github.com/user-attachments/assets/c8955e8d-21d0-4745-a154-43016d611487" />
 
 # Current collectors
-The current collectors act as the elctrical interface between the fuel cell stack and the electrical circuit. Copper was selected for its high electrical conductivity, but surface corrosion was a concern. To prevent it,the current collectors were silver coated using [Nushine Silver Plating Solution 3.4 Oz](https://a.co/d/675oinK).
+The current collectors act as the electrical interface between the fuel cell stack and the electrical circuit. Copper was selected for its high electrical conductivity, but surface corrosion was a concern. To prevent it, the current collectors were silver coated using [Nushine Silver Plating Solution 3.4 Oz](https://a.co/d/675oinK).
 
 ![IMG_5931 (1)](https://github.com/user-attachments/assets/cc1ce7fc-9315-4ad2-a330-4655c0fa161f)
 <img width="200" alt="{44C0C773-2CE3-48D9-A187-1A2DAB118852}" src="https://github.com/user-attachments/assets/35ae2c78-16de-47ca-8f76-04cd5478d33a" />
 
-Originally, a 0.1mm thick pure copper sheet was used, but it was replaced by double sided copper laminated FR4 (blank PCB material), after the first iteration got damage. In the end both solution weren't optimal and a thicker pure copper sheet may perform better.
+Originally, a 0.1mm thick pure copper sheet was used, but it was replaced by double sided copper laminated FR4 (blank PCB material), after the first iteration got damaged. In the end both solutions weren't optimal and a thicker pure copper sheet may perform better.
 
 The electrical circuit was connected to the collectors using simple fork terminals bolted on the tabs.
 
@@ -193,11 +193,11 @@ The CAD files for the current collectors can be found in [CAD files/Current coll
 <img width="300" alt="{9884F5E0-8846-489C-B124-512537534B9E}" src="https://github.com/user-attachments/assets/7ace09f3-c464-414d-b57c-0e6afd76973f" />
 
 ## Material
-In order to have a reliable seal and a well distributed compression, the end plates needs to be very stiff. To achieve this while keeping a light weight, the selected material was a 3/8" thick [Flame-Retardant Garolite G-10/FR4 Sheet](https://www.mcmaster.com/85345K752/). Note that this material is very abrasive and might damage the tooling bits. 
+In order to have a reliable seal and a well distributed compression, the end plates need to be very stiff. To achieve this while keeping a light weight, the selected material was a 3/8" thick [Flame-Retardant Garolite G-10/FR4 Sheet](https://www.mcmaster.com/85345K752/). Note that this material is very abrasive and might damage the tooling bits. 
 ## Ports
-The selected connector were [Swagelok's #SS-400-1-0256](https://products.swagelok.com/en/c/straights/p/SS-400-1-0256). A 10-32 thread was tapped directly in the garolite sheets.
+The selected connectors were [Swagelok's #SS-400-1-0256](https://products.swagelok.com/en/c/straights/p/SS-400-1-0256). A 10-32 thread was tapped directly in the garolite sheets.
 
-To keep the fitting tight over time, threadlockr was added and along with a 3D printed contraption that prevents the rotation of the two fittings, like a lock wire.
+To keep the fitting tight over time, threadlocker was added and along with a 3D printed contraption that prevents the rotation of the two fittings, like a lock wire.
 
 ## Compression
 To compress the stack, eight M4 threaded rods were used to compress the two end plates together. A nut was also welded on one end of each rod to turn it into a long hex head bolt. [High profile nuts](https://www.mcmaster.com/90725A025/) were used to avoid stripping. Also note that [washers](https://www.mcmaster.com/93475A230/) are needed to avoid damage on the end plates during compression. 
@@ -210,9 +210,9 @@ The CAD files for the endplates can be found in [CAD files/Endplate](https://git
 # Air blower
 The first tests of the fuel cell stack indicated that the current was limited by the low air flow in the flow field. This could be due to oxygen concentration or water removal.
 
-A **PVB120G12H-P01** air blower, scavenge from an old computer was installed along with a 3D printed duct to guide the air through. This blower can accomodate for about 20 cells. The exact geometry of the duct can also be modify to fit the length of the stack.
+A **PVB120G12H-P01** air blower, scavenged from an old computer was installed along with a 3D printed duct to guide the air through. This blower can accommodate for about 20 cells. The exact geometry of the duct can also be modified to fit the length of the stack.
 
-A filter was also crafted with a 3D printed frame and a piece composite breater material to avoid any contaminent in the air supply of the fuel cell stack.
+A filter was also crafted with a 3D printed frame and a piece composite breather material to avoid any contaminant in the air supply of the fuel cell stack.
 
 <img width="400" alt="{8FADFDFD-DADD-46EE-878C-21586577273D}" src="https://github.com/user-attachments/assets/fbaa9539-664d-4dac-8916-22ce5eef8c87" />
 
@@ -226,15 +226,15 @@ The CAD files for the air blower system can be found in [CAD files/Air blower sy
 
 An extensive assembly procedure was never put together. However, here are a few guidelines for the assembly:
 
-* First, the MEA must be pre-humidify before being put in the stack. To do so, the MEA are left to float in distilled water  for a few minutes. Wetting the gaskets and sub-gaskets can also help.
+* First, the MEAs must be pre-humidified before being put in the stack. To do so, the MEAs are left to float in distilled water  for a few minutes. Wetting the gaskets and sub-gaskets can also help.
 * When handling the MEA, wear clean gloves to avoid contaminating the membrane with any grease.
-* To assemble the MEA with the gasket and flow plates, start using the end plate with the positionnig rods. Each element is then slide through on op of each other.
+* To assemble the MEA with the gasket and flow plates, start using the end plate with the positionig rods. Each element is then slide through on top of each other.
 * Beware not to leave any folds or wrinkle in the MEA and gaskets.
-* Make sure that the membrane is protected from the main gasket by the sub-gasket. Any contact between the two during ompression will lead to tear in the membrane.
-* To compress the stack, use a torque screw driver. All eight threaded rod must be bolted in a star pattern with multiple increments in the torque. The final value of the torque is 75 **(units???)**. This value can be adjusted, but beware: more torque can lead to some cracks in the flow plates, and less torque can lead to leaks in the stack.
-* A set of 3D printed screwdriver wrench were used for this project. This worked well, but I would recommand to buy this tool for a better repeatabilty.
+* Make sure that the membrane is protected from the main gasket by the sub-gasket. Any contact between the two during compression will lead to tear in the membrane.
+* To compress the stack, use a torque screw driver. All eight threaded rods must be bolted in a star pattern with multiple increments in the torque. The final value of the torque is 75 **(units???)**. This value can be adjusted, but beware: more torque can lead to some cracks in the flow plates, and less torque can lead to leaks in the stack.
+* A set of 3D printed screwdriver wrench were used for this project. This worked well, but I would recommend to buy this tool for a better repeatability.
 * About half-way through the compression, when the risk of movements between the cells is low, remove the positioning rods.
-* For the O-rings, Swagelok fitting (with a rubber gasket) and endplate gasket, a bit of silicone grease can be added to help the the gasket to create a good seal. **Note that this must NOT be done on the main gasket, or any component in contact with the membranes, because it can damage them.**
+* For the O-rings, Swagelok fitting (with a rubber gasket) and endplate gasket, a bit of silicone grease can be added to help the gasket to create a good seal. **Note that this must NOT be done on the main gasket, or any component in contact with the membranes, because it can damage them.**
 * The maximum recommended number of cells per stack is ~20.
 
 ## Positioning rods
@@ -244,15 +244,15 @@ About mid way into the compression of the stack, when the risk of shifting of th
 
 # Performances
 ## Testing
-The full fuel cell stack has not been tested yet. However here is a preliminary results for a single cell. The jump in the curve is likely due to a bad caracterisation of the resistive load. 
+The full fuel cell stack has not been tested yet. However here is a preliminary result for a single cell. The jump in the curve is likely due to a bad caracterisation of the resistive load. 
 
 <img width="615" height="369" alt="polariz2 (1)" src="https://github.com/user-attachments/assets/23421f4c-b4b6-46c9-82f4-b7c8008bf73a" />
 
-This early results shows that the achieved power density is arround 0.13 W/cm², which is short from the 0.6 W/cm² target. A lot of factors may cause this performance lost. First, a bad contact between the electrodes and the flow plates might be in cause. Note that this test was performs with another gasket design, and that the current gaskets supposedly help with the elctrical contact. 
+This early results shows that the achieved power density is around 0.13 W/cm², which is short from the 0.6 W/cm² target. A lot of factors may cause this performance loss. First, a bad contact between the electrodes and the flow plates might be the cause. Note that this test was performs with another gasket design, and that the current gaskets supposedly help with the elctrical contact. 
 
-Next, the temperature and humidity of the cell, for this test, were neather measured, nor controlled. The operating conditions were therefore not optimized for the performance.
+Next, the temperature and humidity of the cell, for this test, were neither measured, nor controlled. The operating conditions were therefore not optimized for the performance.
 
-Finally, it is possible that the air supply was insufficient, making the oxygen the limitant in the reaction. Note that this early test was performed with another fan/blower than the one presented in this design.
+Finally, it is possible that the air supply was insufficient, making the oxygen the limiting factor in the reaction. Note that this early test was performed with another fan/blower than the one presented in this design.
 
 # Acknowledgement
 Huge thanks to all our sponsors and to all the experts who helped us along the way!
