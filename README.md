@@ -159,7 +159,7 @@ First, because of its "squishiness" and good gripping properties, when compresse
 ## Back support and margins
 Next, because of its high compressibility, the EPDM gasket tended to squish in the hydrogen channels, cutting out the hydrogen flow entirely. Nickel back support were thus added where the gasket had to go over the flow channels. Also, appropriate margin between the gasket holes and any flow field feature (flow channels, port holes, etc.) were needed has the gasket expands under compression. To spot where to add more margin, we looked at the marks left of the rubber after the compression.
 
-The nickel back support were made with 0.1mm x 4mm 99.6% pure nickel strip, which was cut to the desired length. Be sure to use pure nickel as nickel plated steel will rust.
+The nickel back support were made with 0.1mm x 4mm 99.6% pure nickel strip, which was cut to the desired length. **Be sure to use pure nickel as nickel plated steel will rust.**
 
 These nickel strips were held in place using a small amount of silicone. For further improvements, some feature in the graphit flow plates should be added to accurately position the back support strips.
 
