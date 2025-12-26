@@ -234,7 +234,7 @@ An extensive assembly procedure was never put together. However, here are a few 
 * To compress the stack, use a torque screw driver. All eight threaded rod must be bolted in a star pattern with multiple increments in the torque. The final value of the torque is 75 **(units???)**.
 * A set of [3D printed screwdriver wrench] (link!!) were used for this project. This worked well, but I would recommand to buy this tool for a better repeatabilty.
 * About half-way through the compression, when the risk of movements between the cells is low, remove the positioning rods.
-* For the O-rings, Swagelok fitting (with a rubber gasket) and endplate gasket, a bit of silicone grease can be added to help the the gasket to create a good seal. **Note that this must NOT be done on the main gasket, or any component in contact with the membranes, becaus it can damage them.**
+* For the O-rings, Swagelok fitting (with a rubber gasket) and endplate gasket, a bit of silicone grease can be added to help the the gasket to create a good seal. **Note that this must NOT be done on the main gasket, or any component in contact with the membranes, because it can damage them.**
 * The maximum recommended number of cells per stack is ~20.
 
 ## Positioning rods
