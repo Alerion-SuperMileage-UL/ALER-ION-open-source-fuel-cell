@@ -161,7 +161,7 @@ Next, because of its high compressibility, the EPDM gasket tended to squish in t
 
 The nickel back support were made with 0.1mm x 4mm 99.6% pure nickel strip, which was cut to the desired length. **Be sure to use pure nickel as nickel plated steel will rust.**
 
-These nickel strips were held in place using a small amount of silicone. For further improvements, some feature in the graphit flow plates should be added to accurately position the back support strips.
+These nickel strips were held in place using a small amount of silicone. For further improvements, some feature in the graphite flow plates should be added to accurately position the back support strips.
 
 
 ## Sealing interface with negative current collector and end plate
