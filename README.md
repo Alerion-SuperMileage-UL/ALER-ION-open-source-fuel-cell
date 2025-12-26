@@ -1,5 +1,5 @@
 # ALÉR-ION OPEN SOURCE HYDROGEN FUEL CELL
-*Note: The full documentation for this project is in progress. Sections marked with "(...)" will be updated in the near future. Feel free to contact me at mederic.chalifour.1@ulaval.ca for any questions.*
+*Feel free to contact me at mederic.chalifour.1@ulaval.ca for any questions.*
 
 Alérion Supermileage is a student group at l'Université Laval who focuses on the development of high efficiency vehicles for various competitions. Up until 2024, the team always relied on internal combustion engines. They then transitioned toward an electric-driven system with a battery. In 2025, the project of a self-made hydrogen PEM fuel cell was born. With the spirit of sharing knowledge and helping others develop this technology, all the relevant design files are released as an open-source project.
 
