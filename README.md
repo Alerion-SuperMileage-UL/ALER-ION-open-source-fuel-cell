@@ -231,7 +231,7 @@ An extensive assembly procedure was never put together. However, here are a few 
 * To assemble the MEA with the gasket and flow plates, start using the end plate with the positionnig rods. Each element is then slide through on op of each other.
 * Beware not to leave any folds or wrinkle in the MEA and gaskets.
 * Make sure that the membrane is protected from the main gasket by the sub-gasket. Any contact between the two during ompression will lead to tear in the membrane.
-* To compress the stack, use a torque screw driver. All eight threaded rod must be bolted in a star pattern with multiple increments in the torque. The final value of the torque is 75 **(units???)**.
+* To compress the stack, use a torque screw driver. All eight threaded rod must be bolted in a star pattern with multiple increments in the torque. The final value of the torque is 75 **(units???)**. This value can be adjusted, but beware: more torque can lead to some cracks in the flow plates, and less torque can lead to leaks in the stack.
 * A set of [3D printed screwdriver wrench] (link!!) were used for this project. This worked well, but I would recommand to buy this tool for a better repeatabilty.
 * About half-way through the compression, when the risk of movements between the cells is low, remove the positioning rods.
 * For the O-rings, Swagelok fitting (with a rubber gasket) and endplate gasket, a bit of silicone grease can be added to help the the gasket to create a good seal. **Note that this must NOT be done on the main gasket, or any component in contact with the membranes, because it can damage them.**
