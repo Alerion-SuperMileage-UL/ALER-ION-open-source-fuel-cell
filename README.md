@@ -248,7 +248,7 @@ The full fuel cell stack has not been tested yet. However here is a preliminary 
 
 <img width="615" height="369" alt="polariz2 (1)" src="https://github.com/user-attachments/assets/23421f4c-b4b6-46c9-82f4-b7c8008bf73a" />
 
-This early results shows that the achieved power density is around 0.13 W/cm², which is short from the 0.6 W/cm² target. A lot of factors may cause this performance loss. First, a bad contact between the electrodes and the flow plates might be the cause. Note that this test was performs with another gasket design, and that the current gaskets supposedly help with the elctrical contact. 
+This early results shows that the achieved power density is around 0.13 W/cm², which is short from the 0.6 W/cm² target. A lot of factors may cause this performance loss. First, a bad contact between the electrodes and the flow plates might be the cause. Note that this test was performs with another gasket design, and that the current gaskets supposedly help with the electrical contact. 
 
 Next, the temperature and humidity of the cell, for this test, were neither measured, nor controlled. The operating conditions were therefore not optimized for the performance.
 
