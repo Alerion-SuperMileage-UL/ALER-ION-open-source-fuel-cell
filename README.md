@@ -15,7 +15,9 @@ This is a PEM open cathode fuel cell which turns pure (or prehumidified) hydroge
 
 # Stack general design
 This project was realized as a "Projet de fin d'étude" and the final design report is available (in french) in [Additional documentation/Rapport_final_PFE.pdf](https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/blob/f2cdef219edfe725619d7147de9b8b1a14c1f4f9/Additional%20documentation/Rapport_final_PFE.pdf). 
-(...)
+
+
+The aimed power rating of this fuel cell is ~300 W. Some PEM fuel cells can reach a power density of 0.6 W/cm^2, so the total active surface area needs to be at least 500 cm^2. Next, the maximum voltage allowed in this project was 60V. With the assumption that the maximum voltage per cell, in operation would be ~1 V, the stack would require ~60 cells of 8.3 cm^2 of active area. This figure was rounded up to a square of 3cm X 3cm (9 cm^2) to optimize the cutting of the 30cm x 30cm electrode sheets. Note that the 60 cells can be distributed in more than one stack connected in series to facilitate the assembly and maintenance.
 
 # CAD files
 The CAD files for this project is available in [CAD files](https://github.com/Alerion-SuperMileage-UL/ALER-ION-open-source-fuel-cell/tree/main/CAD%20files). All file are available in *.step* format and as fusion 360 files (with the history tree for easy modification).
