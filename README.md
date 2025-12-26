@@ -244,7 +244,15 @@ About mid way into the compression of the stack, when the risk of shifting of th
 
 # Performances
 ## Testing
-(TO DO...)
+The full fuel cell stack has not been tested yet. However here is a preliminary results for a single cell. The jump in the curve is likely due to a bad caracterisation of the resistive load. 
+
+<img width="615" height="369" alt="polariz2 (1)" src="https://github.com/user-attachments/assets/23421f4c-b4b6-46c9-82f4-b7c8008bf73a" />
+
+This early results shows that the achieved power density is arround 0.13 W/cm², which is short from the 0.6 W/cm² target. A lot of factors may cause this performance lost. First, a bad contact between the electrodes and the flow plates might be in cause. Note that this test was performs with another gasket design, and that the current gaskets supposedly help with the elctrical contact. 
+
+Next, the temperature and humidity of the cell, for this test, were neather measured, nor controlled. The operating conditions were therefore not optimized for the performance.
+
+Finally, it is possible that the air supply was insufficient, making the oxygen the limitant in the reaction. Note that this early test was performed with another fan/blower than the one presented in this design.
 
 # Acknowledgement
 Huge thanks to all our sponsors and to all the experts who helped us along the way!
